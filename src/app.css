@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "DMMono";
+    src: url("/font/DMMono-Medium.ttf");
+  }
+
+  
+@font-face {
+    font-family: "MajorMono";
+    src: url("/font/MajorMonoDisplay-Regular.ttf");
+  }
+
+  
+@font-face {
+    font-family: "RubicMono";
+    src: url("/font/RubikMonoOne-Regular.ttf");
+  }
+
+  
+
+  
