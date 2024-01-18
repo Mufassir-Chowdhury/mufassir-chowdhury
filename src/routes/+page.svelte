@@ -32,9 +32,11 @@
     
     <div id="blob"></div>
     <div id="blur"></div>
-    <main class="w-full h-full z-10 absolute">    
-        <div class="w-screen h-screen p-24 text-center text-white">
+    <main class="w-full h-full my-32 z-10 absolute">    
+        <div class="fixed w-full top-0 p-12 text-center text-white backdrop-blur-lg">
             <Title title="Mufassir A. Chowdhury" />
+        </div>
+        <div class="w-full h-full px-20  text-center text-white">
             <h3 class="xl font-semibold">
                 MAC in short.
             </h3>
@@ -45,25 +47,7 @@
             <Projects />
             <Stack />
             <Interests />
-            <Skills />
-            <h2 class="text-3xl font-bold underline text-center my-8">
-                Which one suits better?
-            </h2>
-            <div class="w-full flex justify-around">
-                <div class="relative z-20">
-                    <img src="DP.png" alt="dp" class="relative z-20 h-96">
-                    <div class="absolute top-0 left-0 z-10">
-                        <img src="DP.png" alt="dp" class="h-96 " style="filter: brightness(0) invert(0); transform: scale(1.02);">
-                    </div>
-                </div>
-                <div class="relative z-20">
-                    <img src="Mufassir.png" alt="dp" class="relative z-20 h-96">
-                    <div class="absolute top-0 left-0 z-10">
-                        <img src="Mufassir.png" alt="dp" class="h-96 " style="filter: brightness(0) invert(1); transform: scale(1.02);">
-                    </div>
-                </div>        
-            </div>
-            
+            <Skills />            
         </div>
     </main>
 

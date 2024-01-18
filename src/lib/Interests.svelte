@@ -1,5 +1,5 @@
 <div>
-    <h2 class="text-3xl font-bold  my-8">
+    <h2 class="text-3xl font-bold font-dm my-8">
         Interests
     </h2>
     <div>

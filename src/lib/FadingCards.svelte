@@ -12,6 +12,9 @@
         <img class="card-fader card-image" src="surrealdb.webp" />
       </div>
     </div>
+    <div class="font-black  text-3xl">
+        <div>+</div>
+    </div>
     <div class="card" data-color="green">
       <img class="card-front-image card-image" src="sveltekit.jpg" />
       <div class="card-faders">
@@ -25,6 +28,10 @@
         <img class="card-fader card-image" src="sveltekit.jpg" />
       </div>
     </div>
+    <div class="font-black  text-3xl">
+        <div>+</div>
+    </div>
+
     <div class="card" data-color="brown">
       <img class="card-front-image card-image" src="tailwindcss.png" />
       <div class="card-faders">
@@ -61,6 +68,7 @@
     #cards {
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     }
 
