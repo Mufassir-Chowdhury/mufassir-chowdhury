@@ -1,8 +1,49 @@
+<script>
+    import Card from "./Card.svelte";
+
+</script>
 <section>
     <h2 class="text-3xl font-bold font-dm my-8">
         Projects
     </h2>
-    <div class="grid grid-cols-3 gap-2">
+    <div class="grid grid-cols-2 gap-2">
+        <Card >
+            <h3>
+                SUST APP
+            </h3>
+            <div>
+                All in one platform for SUST students
+            </div>
+            <ul>
+                <li class="flex w-full whitespace-nowrap items-center gap-4">
+                    •	Desktop stack 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/java.svg" alt="java" class="h-6 w-6 inline-block">
+                    </div>
+                </li>
+                <li class="flex w-full whitespace-nowrap items-center gap-4">
+                    •	Mobile stack 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/flutter.svg" alt="flutter" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/SurrealDB-nobg.png" alt="surrealdb" class="h-6 w-6 inline-block">
+                    </div>
+                </li>
+                <li class="flex w-full whitespace-nowrap items-center gap-4">
+                    •	Web stack 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/svelte.svg" alt="svelte" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/SurrealDB-nobg.png" alt="SurrealDB-nobg" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
+                    </div>
+                </li>
+            </ul>
+        </Card>
         <div>
             <h3>
                 SUST APP
@@ -11,14 +52,32 @@
                 All in one platform for SUST students
             </div>
             <ul>
-                <li>
-                    •	Desktop stack – Java Swing
+                <li class="flex w-full whitespace-nowrap items-center gap-4">
+                    •	Desktop stack 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/java.svg" alt="java" class="h-6 w-6 inline-block">
+                    </div>
                 </li>
-                <li>
-                    •	Mobile stack – Flutter, SurrealDB
+                <li class="flex w-full whitespace-nowrap items-center gap-4">
+                    •	Mobile stack 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/flutter.svg" alt="flutter" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/SurrealDB-nobg.png" alt="surrealdb" class="h-6 w-6 inline-block">
+                    </div>
                 </li>
-                <li>
-                    •	Web stack – SvelteKit, SurrealDB, TailwindCSS
+                <li class="flex w-full whitespace-nowrap items-center gap-4">
+                    •	Web stack 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/svelte.svg" alt="svelte" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/SurrealDB-nobg.png" alt="SurrealDB-nobg" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
+                    </div>
                 </li>
             </ul>
         </div>

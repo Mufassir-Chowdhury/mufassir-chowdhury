@@ -32,11 +32,13 @@
     
     <div id="blob"></div>
     <div id="blur"></div>
+    <div id="background"></div>
+
     <main class="w-full h-full my-32 z-10 absolute">    
-        <div class="fixed w-full top-0 p-12 text-center text-white backdrop-blur-lg">
+        <div class="fixed w-full z-20 top-0 p-12 text-center text-white backdrop-blur-lg">
             <Title title="Mufassir A. Chowdhury" />
         </div>
-        <div class="w-full h-full px-20  text-center text-white">
+        <div class="w-full h-full px-40 text-center text-white">
             <h3 class="xl font-semibold">
                 MAC in short.
             </h3>
@@ -95,5 +97,19 @@
     }
     body {
         background-color: #0b142c;
+    }
+    
+    #background {
+    background-image: url("https://images.unsplash.com/photo-1565896311009-382b9e813b19?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987");
+    background-position: center;
+    background-size: cover;
+    filter: blur(1.25em);
+    height: 100%;
+    left: 0px;
+    opacity: 0.15;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
     }
 </style>
