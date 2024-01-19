@@ -15,14 +15,14 @@
                 All in one platform for SUST students
             </div>
             <ul>
-                <li class="flex w-full whitespace-nowrap items-center gap-4">
-                    •	Desktop stack 
+                <li>
+                    •	Desktop stack –
                     <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
                         <img src="logo/java.svg" alt="java" class="h-6 w-6 inline-block">
                     </div>
                 </li>
-                <li class="flex w-full whitespace-nowrap items-center gap-4">
-                    •	Mobile stack 
+                <li>
+                    •	Mobile stack –
                     <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
                         <img src="logo/flutter.svg" alt="flutter" class="h-6 w-6 inline-block">
                     </div>
@@ -30,8 +30,8 @@
                         <img src="logo/SurrealDB-nobg.png" alt="surrealdb" class="h-6 w-6 inline-block">
                     </div>
                 </li>
-                <li class="flex w-full whitespace-nowrap items-center gap-4">
-                    •	Web stack 
+                <li>
+                    •	Web stack –
                     <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
                         <img src="logo/svelte.svg" alt="svelte" class="h-6 w-6 inline-block">
                     </div>
@@ -44,44 +44,8 @@
                 </li>
             </ul>
         </Card>
-        <div>
-            <h3>
-                SUST APP
-            </h3>
-            <div>
-                All in one platform for SUST students
-            </div>
-            <ul>
-                <li class="flex w-full whitespace-nowrap items-center gap-4">
-                    •	Desktop stack 
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/java.svg" alt="java" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-                <li class="flex w-full whitespace-nowrap items-center gap-4">
-                    •	Mobile stack 
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/flutter.svg" alt="flutter" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/SurrealDB-nobg.png" alt="surrealdb" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-                <li class="flex w-full whitespace-nowrap items-center gap-4">
-                    •	Web stack 
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/svelte.svg" alt="svelte" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/SurrealDB-nobg.png" alt="SurrealDB-nobg" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div>
+        
+        <Card>
             <h3>
                 Blood Donor Manager
             </h3>
@@ -90,11 +54,20 @@
             </div>
             <ul>
                 <li>
-                    •	Web stack – VueJS, TailwindCSS, Firebase
+                    •	Web stack – 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/vueJS.svg" alt="vueJS" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/firebase.svg" alt="firebase" class="h-6 w-6 inline-block">
+                    </div>
                 </li>
             </ul>
-        </div>
-        <div>
+        </Card>
+        <Card>
             <h3>
                 SUST CSE Carnival
             </h3>
@@ -103,11 +76,17 @@
             </div>
             <ul>
                 <li>
-                    •	Web stack – ReactJS, TailwindCSS
+                    •	Web stack – 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/reactJS.svg" alt="reactJS" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
+                    </div>
                 </li>
             </ul>
-        </div>
-        <div>
+        </Card>
+        <Card>
             <h3>
                 NMOSS
             </h3>
@@ -116,11 +95,17 @@
             </div>
             <ul>
                 <li>
-                    •	Web stack – TailwindCSS, Svelte
+                    •	Web stack – 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/svelte.svg" alt="svelte" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
+                    </div>
                 </li>
             </ul>
-        </div>
-        <div>
+        </Card>
+        <Card>
             <h3>
                 AI_Support
             </h3>
@@ -129,11 +114,14 @@
             </div>
             <ul>
                 <li>
-                    •	Python
+                    •	Lanugae – 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/python.png" alt="python" class="h-6 w-6 inline-block">
+                    </div>
                 </li>
             </ul>
-        </div>
-        <div>
+        </Card>
+        <Card>
             <h3>
                 CSP Justice
             </h3>
@@ -142,10 +130,19 @@
             </div>
             <ul>
                 <li>
-                    •	Web stack – Sveltekit, TailwindCSS, Firebase
+                    •	Web stack – 
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/svelte.svg" alt="svelte" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
+                    </div>
+                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+                        <img src="logo/firebase.svg" alt="firebase" class="h-6 w-6 inline-block">
+                    </div>
                 </li>
             </ul>
-        </div>
+        </Card>
     </div>
 </section>
 
@@ -158,5 +155,8 @@
     }
     section > div > div > div {
         @apply text-sm;
+    }
+    li {
+        @apply flex w-full whitespace-nowrap items-center gap-4;
     }
 </style>

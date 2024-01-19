@@ -45,11 +45,11 @@
             <p class="my-8">
                 Computer Science and Engineering student at <a href="https://www.sust.edu/" class="underline text-emerald-300">Shahjalal University of Science and Technology</a>.
             </p>
-            <Research />
-            <Projects />
-            <Stack />
-            <Interests />
-            <Skills />            
+            <div class="my-48"><Research /></div>
+            <div class="my-48"><Projects /></div>
+            <div class="my-48"><Stack /></div>
+            <div class="my-48"><Interests /></div>
+            <div class="my-48"><Skills /></div>
         </div>
     </main>
 
