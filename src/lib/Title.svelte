@@ -19,7 +19,7 @@
                     clearInterval(interval);
                 };
                 iterations += 1/3;
-            }, 30);
+            }, 60);
         }, 12000);
     });
 </script>

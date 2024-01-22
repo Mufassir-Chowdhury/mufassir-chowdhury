@@ -1,162 +1,128 @@
 <script>
     import Card from "./Card.svelte";
+    import Icon from "./Icon.svelte";
 
+    const projects = [
+        {
+            title: "SUST APP",
+            description: "All in one platform for SUST students",
+            stacks: [
+                {
+                    name: "Desktop",
+                    stack: [
+                        "java"
+                    ]
+                },
+                {
+                    name: "Mobile",
+                    stack: [
+                        "flutter",
+                        "surrealdb"
+                    ]
+                },
+                {
+                    name: "Web",
+                    stack: [
+                        "svelte",
+                        "surrealdb",
+                        "tailwindcss"
+                    ]
+                }
+            ]
+        },
+        {
+            title: "Blood Donor Manager",
+            description: "Client",
+            stacks: [
+                {
+                    name: "Web",
+                    stack: [
+                        "vuejs",
+                        "tailwindcss",
+                        "firebase"
+                    ]
+                }
+            ]
+        },
+        {
+            title: "SUST CSE Carnival",
+            description: "Client",
+            stacks: [
+                {
+                    name: "Web",
+                    stack: [
+                        "react",
+                        "tailwindcss"
+                    ]
+                }
+            ]
+        },
+        {
+            title: "NMOSS",
+            description: "Website for Cyber Security Research Club",
+            stacks: [
+                {
+                    name: "Web",
+                    stack: [
+                        "svelte",
+                        "tailwindcss"
+                    ]
+                }
+            ]
+        },
+        {
+            title: "AI_Support",
+            description: "Discord bot for SUST CSE server",
+            stacks: [
+                {
+                    name: "Language",
+                    stack: [
+                        "python"
+                    ]
+                }
+            ]
+        },
+        {
+            title: "CSP Justice",
+            description: "Website for a research group with blogging capabilities for users",
+            stacks: [
+                {
+                    name: "Web",
+                    stack: [
+                        "svelte",
+                        "tailwindcss",
+                        "firebase"
+                    ]
+                }
+            ]
+        }
+    ]
 </script>
 <section>
     <h2 class="text-3xl font-bold font-dm my-8">
         Projects
     </h2>
-    <div class="grid grid-cols-2 gap-2">
-        <Card >
-            <h3>
-                SUST APP
-            </h3>
-            <div>
-                All in one platform for SUST students
-            </div>
-            <ul>
-                <li>
-                    •	Desktop stack –
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/java.svg" alt="java" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-                <li>
-                    •	Mobile stack –
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/flutter.svg" alt="flutter" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/SurrealDB-nobg.png" alt="surrealdb" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-                <li>
-                    •	Web stack –
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/svelte.svg" alt="svelte" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/SurrealDB-nobg.png" alt="SurrealDB-nobg" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-            </ul>
-        </Card>
-        
-        <Card>
-            <h3>
-                Blood Donor Manager
-            </h3>
-            <div>
-                Client
-            </div>
-            <ul>
-                <li>
-                    •	Web stack – 
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/vueJS.svg" alt="vueJS" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/firebase.svg" alt="firebase" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-            </ul>
-        </Card>
-        <Card>
-            <h3>
-                SUST CSE Carnival
-            </h3>
-            <div>
-                Client
-            </div>
-            <ul>
-                <li>
-                    •	Web stack – 
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/reactJS.svg" alt="reactJS" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-            </ul>
-        </Card>
-        <Card>
-            <h3>
-                NMOSS
-            </h3>
-            <div>
-                Website for Cyber Security Research Club
-            </div>
-            <ul>
-                <li>
-                    •	Web stack – 
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/svelte.svg" alt="svelte" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-            </ul>
-        </Card>
-        <Card>
-            <h3>
-                AI_Support
-            </h3>
-            <div>
-                Discord bot for SUST CSE server
-            </div>
-            <ul>
-                <li>
-                    •	Lanugae – 
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/python.png" alt="python" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-            </ul>
-        </Card>
-        <Card>
-            <h3>
-                CSP Justice
-            </h3>
-            <div>
-                Website for a research group with blogging capabilities for users
-            </div>
-            <ul>
-                <li>
-                    •	Web stack – 
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/svelte.svg" alt="svelte" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/tailwindCSS.svg" alt="tailwindCSS" class="h-6 w-6 inline-block">
-                    </div>
-                    <div class="p-1 rounded-full border border-gray-500 w-10 h-10">
-                        <img src="logo/firebase.svg" alt="firebase" class="h-6 w-6 inline-block">
-                    </div>
-                </li>
-            </ul>
-        </Card>
+    <div class="cards">
+        {#each projects as project}
+            <Card >
+                <h3 class="text-2xl font-bold">
+                    {project.title}
+                </h3>
+                <div>
+                    {project.description}
+                </div>
+                <ul>
+                    {#each project.stacks as stack}
+                        <li class="flex w-full whitespace-nowrap items-center gap-4">
+                            •	{stack.name} stack –
+                            {#each stack.stack as logo}
+                                <Icon logo={logo} />
+                            {/each}
+                        </li>
+                    {/each}
+                </ul>
+            </Card>
+
+        {/each}
     </div>
 </section>
-
-<style lang="postcss">
-    section > div > div {
-        @apply rounded-lg bg-gray-800 bg-opacity-75 h-48 grid place-items-center text-white border border-gray-950 px-4;
-    }
-    h3 {
-        @apply text-2xl font-bold;
-    }
-    section > div > div > div {
-        @apply text-sm;
-    }
-    li {
-        @apply flex w-full whitespace-nowrap items-center gap-4;
-    }
-</style>

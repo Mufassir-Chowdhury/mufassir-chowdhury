@@ -64,7 +64,7 @@
 
     .card-icon {
     color: rgba(255, 255, 255, 0.80);
-    font-size: 3em;
+    font-size: 2em;
     opacity: 0.4;
     place-self: center;
     transition: transform 250ms, opacity 250ms;
