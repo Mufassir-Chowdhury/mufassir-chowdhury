@@ -1,5 +1,9 @@
-import adapter from '@sveltejs/adapter-cloudflare';
+import adapterCloudflare from '@sveltejs/adapter-cloudflare';
+import adapterStatic from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import dotenv from 'dotenv';
+dotenv.config();
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {

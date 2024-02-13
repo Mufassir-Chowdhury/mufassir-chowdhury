@@ -20,6 +20,7 @@
         "git": "logo/git.svg",
         "github": "logo/github.svg",
         "sql": "logo/sql.svg",
+        "docker": "logo/docker.png",
     }
 </script>
 

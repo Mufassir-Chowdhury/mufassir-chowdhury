@@ -16,14 +16,17 @@
     const frameworks = [
         "svelte",
         "tailwindcss",
-        "git",
-        "github",
         "vuejs",
         "react",
-        "cloudflare",
-        "firebase",
         "flutter",
     ];
+    const tools = [
+        "git",
+        "github",
+        "cloudflare",
+        "firebase",
+        "docker"
+    ]
 </script>
 
 <div>
@@ -41,10 +44,16 @@
             {/each}
 
         </div>
-        <h3 class="text-xl font-bold">Frameworks and Tools:</h3>
+        <h3 class="text-xl font-bold">Frameworks:</h3>
         <div class="flex justify-center gap-6 my-6">
             {#each frameworks as framework}
                 <Icon logo={framework} />
+            {/each}
+        </div>
+        <h3 class="text-xl font-bold">Tools:</h3>
+        <div class="flex justify-center gap-6 my-6">
+            {#each tools as tool}
+                <Icon logo={tool} />
             {/each}
         </div>
 
