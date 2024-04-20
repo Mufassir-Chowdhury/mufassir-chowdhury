@@ -12,7 +12,7 @@
                     BnPC: A Gold Standard Corpus for Paraphrase Detection in Bangla, and its Evaluation
                 </div>
                 <div class="text-gray-400">
-                    Under Review
+                    Accepted at 17th BUCC (Building and Using Comparable Corpora) workshop at LREC-COLING 2024
                 </div>    
             </div>
         </div>
