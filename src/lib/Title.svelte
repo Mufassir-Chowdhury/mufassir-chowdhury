@@ -6,7 +6,10 @@
     const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     export let title;
     onMount(() => {
-        setInterval(() => {
+        const titleString = title;
+        setInterval(() => {}, 2000);
+
+        while(true){
             let iterations = 0;
             const interval = setInterval(() => {
                 h1.innerText = h1.innerText.split('').map((letter, index) => {
@@ -20,7 +23,9 @@
                 };
                 iterations += 1/3;
             }, 60);
-        }, 12000);
+            setInterval(() => {}, 5000);
+
+        }
     });
 </script>
 
