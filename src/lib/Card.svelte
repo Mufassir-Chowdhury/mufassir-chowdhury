@@ -4,7 +4,7 @@
 
 <div class="card">
     <div class="card-content">
-        <div class="card-icon">
+        <div class="card-icon ">
             {title}
         </div>
         <slot />
@@ -63,10 +63,22 @@
     }
 
     .card-icon {
-    color: rgba(255, 255, 255, 0.80);
     font-size: 2em;
-    opacity: 0.4;
     place-self: center;
     transition: transform 250ms, opacity 250ms;
+    }
+
+    @media(max-width: 640px) {
+    .card-icon {
+        color: rgba(255, 255, 255, 1);
+        opacity: 0.8;
+    }
+    }
+    @media(min-width: 640px) {
+    .card-icon {
+        color: rgba(255, 255, 255, 0.80);
+        opacity: 0.4;
+
+    }
     }
   </style>

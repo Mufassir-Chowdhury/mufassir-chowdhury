@@ -102,10 +102,10 @@
     <h2 class="text-3xl font-bold font-dm my-8">
         Projects
     </h2>
-    <div class="cards">
+    <div class="cards text-sm lg:text-base">
         {#each projects as project}
             <Card >
-                <h3 class="text-2xl font-bold">
+                <h3 class="lg:text-2xl text-xl font-bold">
                     {project.title}
                 </h3>
                 <div>

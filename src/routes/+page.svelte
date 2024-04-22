@@ -35,10 +35,10 @@
     <div id="background"></div>
 
     <main class="w-full h-full my-32 z-10 absolute">    
-        <div class="fixed w-full z-20 top-0 p-12 text-center text-white backdrop-blur-lg">
+        <div class="fixed w-full z-20 top-0 lg:p-12 py-8 text-center text-white backdrop-blur-lg">
             <Title title="Mufassir A. Chowdhury" />
         </div>
-        <div class="w-full h-full px-40 text-center text-white">
+        <div class="w-full h-full px-12 lg:px-40 text-center text-white">
             <h2 class="xl font-semibold">
                 MAC in short.
             </h2>

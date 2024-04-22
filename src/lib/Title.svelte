@@ -6,7 +6,7 @@
     const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     export let title;
     onMount(() => {
-        const outerInterval = window.setTimeout(() => {
+        const outerInterval = window.setInterval(() => {
             let iterations = 0;
             const interval = window.setInterval(() => {
                 h1.innerText = h1.innerText.split('').map((letter, index) => {
@@ -26,6 +26,6 @@
     });
 </script>
 
-<h1 bind:this={h1}  class="text-3xl font-bold font-major ">
+<h1 bind:this={h1}  class="lg:text-3xl text-xl font-bold font-major ">
     {title}
 </h1>

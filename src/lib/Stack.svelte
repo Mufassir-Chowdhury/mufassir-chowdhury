@@ -38,7 +38,7 @@
         Other technologies that I have used in the past:<br/>
         
         <h3 class="text-xl font-bold mt-4">Languages:</h3>
-        <div class="flex justify-center gap-6 my-6">
+        <div class="grid grid-cols-5 lg:flex justify-center gap-6 my-6">
             {#each languages as language}
                 <Icon logo={language} />
             {/each}
