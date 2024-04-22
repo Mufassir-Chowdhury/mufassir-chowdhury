@@ -1,31 +1,31 @@
 <div id="cards">
     <div class="card" data-color="blue">
-      <img class="card-front-image card-image" src="surrealdb.webp" />
+      <img class="card-front-image card-image" src="surrealdb.webp" alt="surrealdb" />
       <div class="card-faders">
-        <img class="card-fader card-image" src="surrealdb.webp" />
-        <img class="card-fader card-image" src="surrealdb.webp" />
-        <img class="card-fader card-image" src="surrealdb.webp" />
-        <img class="card-fader card-image" src="surrealdb.webp" />
-        <img class="card-fader card-image" src="surrealdb.webp" />
-        <img class="card-fader card-image" src="surrealdb.webp" />
-        <img class="card-fader card-image" src="surrealdb.webp" />
-        <img class="card-fader card-image" src="surrealdb.webp" />
+        <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
+        <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
+        <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
+        <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
+        <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
+        <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
+        <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
+        <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
       </div>
     </div>
     <div class="font-black  text-3xl">
         <div>+</div>
     </div>
     <div class="card" data-color="green">
-      <img class="card-front-image card-image" src="sveltekit.jpg" />
+      <img class="card-front-image card-image" src="sveltekit.webp" alt="sveltekit" />
       <div class="card-faders">
-        <img class="card-fader card-image" src="sveltekit.jpg" />
-        <img class="card-fader card-image" src="sveltekit.jpg" />
-        <img class="card-fader card-image" src="sveltekit.jpg" />
-        <img class="card-fader card-image" src="sveltekit.jpg" />
-        <img class="card-fader card-image" src="sveltekit.jpg" />
-        <img class="card-fader card-image" src="sveltekit.jpg" />
-        <img class="card-fader card-image" src="sveltekit.jpg" />
-        <img class="card-fader card-image" src="sveltekit.jpg" />
+        <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
+        <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
+        <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
+        <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
+        <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
+        <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
+        <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
+        <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
       </div>
     </div>
     <div class="font-black  text-3xl">
@@ -33,16 +33,16 @@
     </div>
 
     <div class="card" data-color="brown">
-      <img class="card-front-image card-image" src="tailwindcss.png" />
+      <img class="card-front-image card-image" src="tailwindcss.webp" alt="tailwindcss" />
       <div class="card-faders">
-        <img class="card-fader card-image" src="tailwindcss.png" />
-        <img class="card-fader card-image" src="tailwindcss.png" />
-        <img class="card-fader card-image" src="tailwindcss.png" />
-        <img class="card-fader card-image" src="tailwindcss.png" />
-        <img class="card-fader card-image" src="tailwindcss.png" />
-        <img class="card-fader card-image" src="tailwindcss.png" />
-        <img class="card-fader card-image" src="tailwindcss.png" />
-        <img class="card-fader card-image" src="tailwindcss.png" />
+        <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
+        <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
+        <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
+        <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
+        <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
+        <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
+        <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
+        <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
       </div>
     </div>
   </div>
@@ -55,15 +55,6 @@
     }
 
 
-    body {
-    min-height: 100vh;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 1000ms;
-    }
 
     #cards {
     width: 100%;
@@ -139,10 +130,6 @@
     }
 
     @media(max-width: 1200px) {
-    body {    
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
     
     #cards {
         flex-direction: column; 
