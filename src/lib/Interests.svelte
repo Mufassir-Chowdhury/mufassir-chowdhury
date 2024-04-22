@@ -10,10 +10,10 @@
 </div>
 
 <div class="cards">
-    <Card title="Books"/>
-    <Card title="Philosophy"/>
-    <Card title="AI"/>
-    <Card title="Podcasts"/>
+    <Card title="Books" className="h-32 lg:h-44"/>
+    <Card title="Philosophy" className="h-32 lg:h-44"/>
+    <Card title="AI" className="h-32 lg:h-44"/>
+    <Card title="Podcasts" className="h-32 lg:h-44"/>
 </div>
 
 

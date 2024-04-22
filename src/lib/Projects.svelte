@@ -104,7 +104,7 @@
     </h2>
     <div class="cards text-sm lg:text-base">
         {#each projects as project}
-            <Card >
+            <Card className="h-52">
                 <h3 class="lg:text-2xl text-xl font-bold">
                     {project.title}
                 </h3>

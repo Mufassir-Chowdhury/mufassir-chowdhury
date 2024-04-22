@@ -26,6 +26,6 @@
     });
 </script>
 
-<h1 bind:this={h1}  class="lg:text-3xl text-xl font-bold font-major ">
+<h1 bind:this={h1}  class="sm:text-3xl text-lg font-bold font-major ">
     {title}
 </h1>

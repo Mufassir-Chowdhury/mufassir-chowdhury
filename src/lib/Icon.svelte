@@ -24,6 +24,6 @@
     }
 </script>
 
-<div class="p-1 rounded-full border border-gray-500 w-10 h-10">
+<div class="flex justify-center items-center p-1 rounded-full border border-gray-500 sm:w-10 sm:h-10">
     <img src={source[logo]} alt={logo} class="h-6 w-6 inline-block">
 </div>

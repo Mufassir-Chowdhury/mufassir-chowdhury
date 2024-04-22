@@ -3,7 +3,7 @@
         Research
     </h2>
     <div class="text-left lg:px-28 flex flex-col " >
-        <div class="grid grid-cols-4 lg:p-4 hover:backdrop-blur-3xl rounded-lg hover:backdrop-brightness-150 lg:h-32">
+        <div class="grid grid-cols-4 mb-4 lg:p-4 hover:backdrop-blur-3xl rounded-lg hover:backdrop-brightness-150 lg:h-32">
             <div class="text-center font-semibold text-sm text-gray-400">
                 1. 2023
             </div>
@@ -16,7 +16,7 @@
                 </div>    
             </div>
         </div>
-        <div class="grid grid-cols-4 p-4 hover:backdrop-blur-3xl rounded-lg hover:backdrop-brightness-150 h-32">
+        <div class="grid grid-cols-4 lg:p-4 hover:backdrop-blur-3xl rounded-lg hover:backdrop-brightness-150 lg:h-32">
             <div class="text-center font-semibold text-sm text-gray-400">
                 2. 2024
             </div>

@@ -7,7 +7,7 @@
         Skills
     </h2>
     <div class="cards">
-        <Card title="Basic Video Editing" />
-        <Card title="Microsoft Office Suite" />
+        <Card title="Basic Video Editing" className="h-32 lg:h-44"/>
+        <Card title="Microsoft Office Suite" className="h-32 lg:h-44"/>
     </div>
 </div>

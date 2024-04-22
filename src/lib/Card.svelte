@@ -1,10 +1,11 @@
 <script>
     export let title = "";
+    export let className = "";
 </script>
 
-<div class="card">
+<div class="card {className}">
     <div class="card-content">
-        <div class="card-icon ">
+        <div class="card-icon text-xl md:text-2xl">
             {title}
         </div>
         <slot />
@@ -22,7 +23,6 @@
     background-color: var(--card-color);
     border-radius: 0.75em;
     cursor: pointer;
-    height: 212px;
     position: relative;
     }
 
@@ -63,7 +63,6 @@
     }
 
     .card-icon {
-    font-size: 2em;
     place-self: center;
     transition: transform 250ms, opacity 250ms;
     }
