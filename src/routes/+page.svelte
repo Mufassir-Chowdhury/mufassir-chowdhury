@@ -39,9 +39,9 @@
             <Title title="Mufassir A. Chowdhury" />
         </div>
         <div class="w-full h-full px-40 text-center text-white">
-            <h3 class="xl font-semibold">
+            <h2 class="xl font-semibold">
                 MAC in short.
-            </h3>
+            </h2>
             <p class="my-8">
                 Computer Science and Engineering student at <a href="https://www.sust.edu/" class="underline text-emerald-300">Shahjalal University of Science and Technology</a>.
             </p>
