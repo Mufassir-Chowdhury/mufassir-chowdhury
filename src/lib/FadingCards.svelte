@@ -1,5 +1,5 @@
 <div id="cards">
-    <div class="card" data-color="blue">
+    <div class="card shadow-2xl" data-color="blue">
       <img class="card-front-image card-image" src="surrealdb.webp" alt="surrealdb" />
       <div class="card-faders">
         <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
@@ -15,7 +15,7 @@
     <div class="font-black  text-3xl">
         <div>+</div>
     </div>
-    <div class="card" data-color="green">
+    <div class="card shadow-2xl" data-color="green">
       <img class="card-front-image card-image" src="sveltekit.webp" alt="sveltekit" />
       <div class="card-faders">
         <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
@@ -32,7 +32,7 @@
         <div>+</div>
     </div>
 
-    <div class="card" data-color="brown">
+    <div class="card shadow-2xl" data-color="brown">
       <img class="card-front-image card-image" src="tailwindcss.webp" alt="tailwindcss" />
       <div class="card-faders">
         <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
