@@ -1,6 +1,5 @@
 <script>
     import { onMount } from 'svelte';
-    import Title from '$lib/Title.svelte';
     import Research from '$lib/Research.svelte';
     import Projects from '$lib/Projects.svelte';
     import Stack from '$lib/Stack.svelte';
@@ -28,25 +27,76 @@
     
 
 </script>
-<body class="h-full m-0 bg-[#0b142c]">
+<body class="h-full m-0 bg-[#F9EFDF]">
     
     <div id="blob"></div>
     <div id="blur"></div>
     <div id="background"></div>
 
     <main class="w-full h-full my-32 z-10 absolute">    
-        <div class="fixed w-full z-20 top-0 lg:p-12 py-8 text-center text-white backdrop-blur-lg">
-            <Title title="Mufassir A. Chowdhury" />
+        <div class="fixed w-full z-20 top-0 lg:p-12 py-8 text-center text-black backdrop-blur-lg">
+            <h1 class="sm:text-3xl text-lg font-bold font-calligraffitti ">
+                Mufassir Ahmad Chowdhury
+            </h1>
+            <h1 class="sm:text-3xl text-lg font-bold font-berkshire ">
+                Mufassir Ahmad Chowdhury
+            </h1>
+            <h1 class="sm:text-3xl text-lg font-bold font-aladin ">
+                Mufassir Ahmad Chowdhury
+            </h1>
+            <h1 class="sm:text-3xl text-lg font-bold font-marmelad ">
+                Mufassir Ahmad Chowdhury
+            </h1>
         </div>
-        <div class="w-full h-full px-12 lg:px-40 text-center text-white">
+        <div class="w-full h-full px-12 lg:px-40 text-center text-black">
             <h2 class="xl font-semibold">
                 MAC in short.
             </h2>
             <p class="my-8">
                 Computer Science and Engineering student at <a href="https://www.sust.edu/" class="underline text-emerald-300">Shahjalal University of Science and Technology</a>.
             </p>
+
+
+
+            <!-- Research -->
+
+
+
             <div class="divide-y-2">
-                <div class="py-28"><Research /></div>
+                <div>
+                    <h2 class="text-3xl font-bold font-dm my-8">
+                        Research
+                    </h2>
+                    <div class="text-left lg:px-28 flex flex-col " >
+                        <div class="grid grid-cols-4 mb-4 lg:p-4 hover:backdrop-blur-3xl rounded-lg hover:backdrop-brightness-150 lg:h-32">
+                            <div class="text-center font-semibold text-sm text-gray-900">
+                                1. 2023
+                            </div>
+                            <div class="col-span-3">
+                                <div class="font-semibold">
+                                    BnPC: A Gold Standard Corpus for Paraphrase Detection in Bangla, and its Evaluation
+                                </div>
+                                <div class="text-gray-900">
+                                    Accepted at 17th BUCC (Building and Using Comparable Corpora) workshop at LREC-COLING 2024
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-4 lg:p-4 hover:backdrop-blur-3xl rounded-lg hover:backdrop-brightness-150 lg:h-32">
+                            <div class="text-center font-semibold text-sm text-gray-900">
+                                2. 2024
+                            </div>
+                            <div class="col-span-3">
+                                <div class="font-semibold">
+                                    Advancing Conversational Search: User Simulation, Open-Ended Retrieval, and Domain Discovery (Literature Review)
+                                </div>
+                                <div class="text-gray-900">
+                                    Ongoing
+                                </div>    
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
                 <div class="py-28"><Projects /></div>
                 <div class="py-28"><Stack /></div>
                 <div class="py-28"><Interests /></div>
@@ -95,10 +145,10 @@
         right: 0;
         bottom: 0;
         z-index: 2;
-        backdrop-filter: blur(12vmax) brightness(0.6);
+        backdrop-filter: blur(12vmax) brightness(0.8);
     }
     body {
-        background-color: #0b142c;
+        background-color: #F9EFDF;
     }
     
     #background {
