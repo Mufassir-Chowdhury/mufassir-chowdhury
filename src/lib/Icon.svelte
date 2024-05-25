@@ -1,6 +1,9 @@
 <script>
+    import Tooltip from "sv-tooltip"
     export let logo;
-
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
     const source = {
         "java": "logo/java.svg",
         "flutter": "logo/flutter.svg",
@@ -21,9 +24,13 @@
         "github": "logo/github.svg",
         "sql": "logo/sql.svg",
         "docker": "logo/docker.webp",
+        "godot": "logo/godot.svg"
     }
 </script>
 
-<div class="flex justify-center items-center p-1 rounded-full border shadow-2xl border-gray-500 sm:w-10 sm:h-10">
-    <img src={source[logo]} alt={logo} class="h-6 w-6 inline-block">
-</div>
+<Tooltip tip={capitalizeFirstLetter(logo)} bottom>
+    <!-- <button>Hello</button> -->
+    <div class="flex justify-center items-center p-1 rounded-full border shadow-2xl border-gray-500 sm:w-10 sm:h-10">
+        <img src={source[logo]} alt={logo} class="h-6 w-6 inline-block">
+    </div>
+</Tooltip>

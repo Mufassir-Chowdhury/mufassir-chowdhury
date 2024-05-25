@@ -33,6 +33,7 @@
 
     .card:hover:before {
     opacity: 1;
+    transition: all 0.7s ease-in-out;
     } 
 
     .card:before {
