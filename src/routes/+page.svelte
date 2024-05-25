@@ -29,12 +29,12 @@
 <body class="h-full m-0 bg-[#F9EFDF]">
     
     <div id="blob" class="hidden md:block"></div>
-    <div id="blur" class="hidden md:block"></div>
+    <div id="blur"></div>
     <!-- <div id="background"></div> -->
 
     <main class="w-full h-full my-32 z-10 absolute">    
         <div class="fixed w-full z-20 top-0 lg:p-12 py-8 text-center text-black backdrop-blur-lg">
-            <h1 class="sm:text-3xl text-lg font-bold font-elmessiri ">
+            <h1 class="sm:text-3xl text-2xl font-bold font-elmessiri ">
                 Mufassir Ahmad Chowdhury
             </h1>
             
@@ -87,6 +87,50 @@
                 </div>
                 <div class="py-14"><WhiteProjects /></div>
                 <div class="py-14"><Stack /></div>
+                
+
+                <!-- Research -->
+
+
+
+                <div class="mb-8">
+                    <h2 class="text-3xl font-bold font-elmessiri my-8">
+                        Extra-Curricular Activities
+                    </h2>
+                    <div class="text-left lg:px-28 flex flex-col " >
+                        <a href=" https://www.youtube.com/@Itihashjaan ">
+                            <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-32">
+                                <div class="text-center font-semibold text-sm text-gray-900">
+                                    1. 2023-2024
+                                </div>
+                                <div class="col-span-3">
+                                    <div class="font-semibold">
+                                        Host at Itihashjaan (ইতিহাসযান) Podcast
+                                    </div>
+                                    <div class="text-gray-900">
+                                        • Responsibilities include hosting, editing, and managing the podcast.
+                                    </div>    
+                                </div>
+                            </div>
+                        </a>
+                        <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-48">
+                            <div class="text-center font-semibold text-sm text-gray-900">
+                                1. 2020-2024
+                            </div>
+                            <div class="col-span-3">
+                                <div class="font-semibold">
+                                    Assistant Director at KishorKantha Readers Forum, Sylhet City
+                                </div>
+                                <div class="text-gray-900">
+                                    • Experiences include directing and managing the forum and organizing events. <br/>
+                                    • Successfully organized KishorKantha Medhabritti Exam from 2020-2024 with an average of 4000 participants. <br/>
+                                    • Other events include olympiads, regular sports and cultural events.
+                                </div>    
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
                 <div class="py-14"><WhiteInterests /></div>
                 <div class="py-14"><WhiteSkills /></div>
             </div>
