@@ -90,16 +90,16 @@
                 <div class="py-14"><Stack /></div>
                 
 
-                <!-- Research -->
+                <!-- Experiences -->
 
 
 
                 <div class="mb-8 reveal">
                     <h2 class="text-3xl font-bold font-elmessiri my-8" use:reveal={{ transition: "slide" }}>
-                        Extra-Curricular Activities
+                        Experiences
                     </h2>
                     <div class="text-left lg:px-28 flex flex-col " >
-                        <a href=" https://www.youtube.com/@Itihashjaan " use:reveal={{ transition: "slide" }}>
+                        <a href=" https://www.youtube.com/@Itihashjaan " target="_blank" use:reveal={{ transition: "slide" }}>
                             <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-32">
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     1. 2023-2024
@@ -134,6 +134,61 @@
                 </div>
                 <div class="py-14 reveal"><WhiteInterests /></div>
                 <div class="py-14 reveal"><WhiteSkills /></div>
+
+                <!-- Social Media -->
+
+
+
+                <div class="mb-8 reveal">
+                    <h2 class="text-3xl font-bold font-elmessiri my-8" use:reveal={{ transition: "slide" }}>
+                        Social Media
+                    </h2>
+                    <div class="text-left lg:px-28 grid grid-cols-3 md:grid-cols-6" >
+                        <a href=" https://www.facebook.com/mufassir.usama/" target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                                <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
+                                    <img src="social/facebook.webp" alt="facebook" class="inline-block">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://github.com/Mufassir-Chowdhury" target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                                <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
+                                    <img src="social/github.webp" alt="github" class="inline-block">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mufassir-chowdhury/" target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="mb-4 lg:p-4 card h-16  md:h-32 flex justify-center">
+                                <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
+                                    <img src="social/linkedin.webp" alt="linkedin" class="inline-block">
+                                </div>
+                            </div>
+                        </a>
+                        <a href=" https://scholar.google.com/citations?hl=en&user=iAcSk2oAAAAJ" target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                                <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
+                                    <img src="social/google_scholar.webp" alt="google_scholar" class="inline-block">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.youtube.com/@this_is_mac" target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                                <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
+                                    <img src="social/youtube.webp" alt="youtube" class="inline-block">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="mailto:contact@mufassir.net" target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                                <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
+                                    <img src="social/gmail.webp" alt="gmail" class="inline-block">
+                                </div>
+                            </div>
+                        </a>
+                
+                    </div>
+                </div>
             </div>
         </div>
     </main>
