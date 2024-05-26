@@ -1,9 +1,10 @@
 <script>
     import GlassCard from "./GlassCard.svelte";
+    import { reveal } from 'svelte-reveal';
 
 </script>
 <div>
-    <h2 class="text-3xl font-bold font-elmessiri my-8 ">
+    <h2 class="text-3xl font-bold font-elmessiri my-8 " use:reveal={{ transition: "slide" }}>
         Interests
     </h2>
 

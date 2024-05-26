@@ -1,6 +1,7 @@
 <script>
     import GlassCard from "./GlassCard.svelte";
     import Icon from "./Icon.svelte";
+    import { reveal } from 'svelte-reveal';
 
     const projects = [
         {
@@ -99,7 +100,7 @@
     ]
 </script>
 <section>
-    <h2 class="text-3xl font-bold font-elmessiri my-8">
+    <h2 class="text-3xl font-bold font-elmessiri my-8"  use:reveal={{ transition: "slide" }}>
         Projects
     </h2>
     <div class="cards text-sm lg:text-base">

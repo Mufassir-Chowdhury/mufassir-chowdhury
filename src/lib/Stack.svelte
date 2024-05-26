@@ -1,6 +1,7 @@
 <script>
     import FadingCards from '../lib/FadingCards.svelte';
     import Icon from './Icon.svelte';
+    import { reveal } from 'svelte-reveal';
 
     const languages = [
         "c",
@@ -33,11 +34,11 @@
 </script>
 
 <div>
-    <h2 class="text-3xl font-bold font-elmessiri my-8">
+    <h2 class="text-3xl font-bold font-elmessiri my-8" use:reveal={{ transition: "slide" }}>
         My Favourite Stack
     </h2>
     <FadingCards />
-    <div class="my-20">
+    <div class="my-20" use:reveal={{ transition: "slide" }}>
         Other technologies that I have used in the past (but not necessarily expert in):<br/>
         
         <h3 class="text-xl font-bold mt-4">Languages:</h3>
@@ -61,7 +62,7 @@
         </div>
 
     </div>
-    <div class="my-20">
+    <div class="my-20" use:reveal={{ transition: "slide" }}>
         Navigating the waters of:<br/>
         
         <h3 class="text-xl font-bold mt-4">Tools:</h3>

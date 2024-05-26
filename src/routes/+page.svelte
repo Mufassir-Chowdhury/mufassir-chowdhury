@@ -4,7 +4,8 @@
     import Stack from '$lib/Stack.svelte';
     import WhiteInterests from '$lib/WhiteInterests.svelte';
     import WhiteSkills from '$lib/WhiteSkills.svelte';
-    
+    import { reveal } from 'svelte-reveal';
+
     onMount(() => {
         const blob = document.getElementById("blob");
 
@@ -33,7 +34,7 @@
     <!-- <div id="background"></div> -->
 
     <main class="w-full h-full my-32 z-10 absolute">    
-        <div class="fixed w-full z-20 top-0 lg:p-12 py-8 text-center text-black backdrop-blur-lg">
+        <div class="fixed w-full z-20 top-0 lg:p-8 py-4 text-center text-black backdrop-blur-lg">
             <h1 class="sm:text-3xl text-2xl font-bold font-elmessiri ">
                 Mufassir Ahmad Chowdhury
             </h1>
@@ -55,13 +56,13 @@
 
 
             <div class="divide-y-2 ">
-                <div class="mb-8">
+                <div class="mb-8 reveal">
                     <h2 class="text-3xl font-bold font-elmessiri my-8">
                         Research
                     </h2>
                     <div class="text-left lg:px-28 flex flex-col " >
-                        <a href="https://aclanthology.org/2024.bucc-1.8/" target="_blank">
-                            <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-32">
+                        <a href="https://aclanthology.org/2024.bucc-1.8/" target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-32" >
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     1. 2023
                                 </div>
@@ -76,10 +77,10 @@
                             </div>
                         </a>
                         <div class="font-semibold text-center p-8">Ongoing Research Topics</div>
-                        <div class="lg:p-4 card lg:h-16">
+                        <div class="lg:p-4 card lg:h-16" use:reveal={{ transition: "slide" }}>
                             1. Clinical Natural Language Processing
                         </div>
-                        <div class="lg:p-4 card lg:h-16">
+                        <div class="lg:p-4 card lg:h-16" use:reveal={{ transition: "slide" }}>
                             2. Natural Language Processing for Low Resource Languages
                         </div>
                 
@@ -93,12 +94,12 @@
 
 
 
-                <div class="mb-8">
-                    <h2 class="text-3xl font-bold font-elmessiri my-8">
+                <div class="mb-8 reveal">
+                    <h2 class="text-3xl font-bold font-elmessiri my-8" use:reveal={{ transition: "slide" }}>
                         Extra-Curricular Activities
                     </h2>
                     <div class="text-left lg:px-28 flex flex-col " >
-                        <a href=" https://www.youtube.com/@Itihashjaan ">
+                        <a href=" https://www.youtube.com/@Itihashjaan " use:reveal={{ transition: "slide" }}>
                             <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-32">
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     1. 2023-2024
@@ -113,7 +114,7 @@
                                 </div>
                             </div>
                         </a>
-                        <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-48">
+                        <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
                             <div class="text-center font-semibold text-sm text-gray-900">
                                 1. 2020-2024
                             </div>
@@ -131,8 +132,8 @@
                 
                     </div>
                 </div>
-                <div class="py-14"><WhiteInterests /></div>
-                <div class="py-14"><WhiteSkills /></div>
+                <div class="py-14 reveal"><WhiteInterests /></div>
+                <div class="py-14 reveal"><WhiteSkills /></div>
             </div>
         </div>
     </main>

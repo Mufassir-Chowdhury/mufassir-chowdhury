@@ -1,9 +1,11 @@
 <script>
     export let title = "";
     export let className = "";
+    import { reveal } from 'svelte-reveal';
+
 </script>
 
-<div class="card {className}">
+<div class="card {className}"  use:reveal={{ transition: "slide" }}>
     <div class="card-content">
         <div class="card-icon text-xl md:text-2xl">
             {title}
