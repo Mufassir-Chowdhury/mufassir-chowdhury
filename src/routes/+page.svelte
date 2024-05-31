@@ -31,6 +31,7 @@
     
     <div id="blob" class="hidden md:block"></div>
     <div id="blur"></div>
+    <div id="pattern"></div>
     <!-- <div id="background"></div> -->
 
     <main class="w-full h-full my-32 z-10 absolute">    
@@ -62,11 +63,11 @@
                     </h2>
                     <div class="text-left lg:px-28 flex flex-col " >
                         <a href="https://aclanthology.org/2024.bucc-1.8/" target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-32" >
+                            <div class="grid grid-cols-4 mb-4 lg:p-4 card animation lg:h-32 " >
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     1. 2023
                                 </div>
-                                <div class="col-span-3">
+                                <div class="col-span-3 ">
                                     <div class="font-semibold">
                                         BnPC: A Gold Standard Corpus for Paraphrase Detection in Bangla, and its Evaluation
                                     </div>
@@ -100,7 +101,7 @@
                     </h2>
                     <div class="text-left lg:px-28 flex flex-col " >
                         <a href=" https://www.youtube.com/@Itihashjaan " target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-32">
+                            <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-32 border-animation">
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     1. 2023-2024
                                 </div>
@@ -199,7 +200,7 @@
     :hover.card {
         background: rgba(255, 255, 255, 0.2);
         border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 30px rgba(237, 148, 85, 0.2);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
         border: 1px solid rgba(255, 255, 255, 0.3);
@@ -232,7 +233,22 @@
         z-index: 1;
         opacity: 0.5;
     }
+    #pattern {
+        
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #f9efdf;
+        background-image: url("data:image/svg+xml,%3Csvg width='48' height='64' viewBox='0 0 48 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M48 28v-4L36 12 24 24 12 12 0 24v4l4 4-4 4v4l12 12 12-12 12 12 12-12v-4l-4-4 4-4zM8 32l-6-6 10-10 10 10-6 6 6 6-10 10L2 38l6-6zm12 0l4-4 4 4-4 4-4-4zm12 0l-6-6 10-10 10 10-6 6 6 6-10 10-10-10 6-6zM0 16L10 6 4 0h4l4 4 4-4h4l-6 6 10 10L34 6l-6-6h4l4 4 4-4h4l-6 6 10 10v4L36 8 24 20 12 8 0 20v-4zm0 32l10 10-6 6h4l4-4 4 4h4l-6-6 10-10 10 10-6 6h4l4-4 4 4h4l-6-6 10-10v-4L36 56 24 44 12 56 0 44v4z' fill='%23b8ac99' fill-opacity='0.32' fill-rule='evenodd'/%3E%3C/svg%3E");
+        z-index: 3;
+        opacity: 0.3;
+    }
     #blur {
+        
         height: 100%;
         width: 100%;
         position: fixed;
@@ -241,7 +257,7 @@
         right: 0;
         bottom: 0;
         z-index: 2;
-        backdrop-filter: blur(12vmax) brightness(1.1);
+        backdrop-filter: blur(120vmax) brightness(1.1);
     }
     body {
         background-color: #F9EFDF;
