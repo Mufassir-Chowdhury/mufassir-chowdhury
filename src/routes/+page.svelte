@@ -35,7 +35,7 @@
     <!-- <div id="background"></div> -->
 
     <main class="w-full h-full my-32 z-10 absolute">    
-        <div class="fixed w-full z-20 top-0 lg:p-8 py-4 text-center text-black backdrop-blur-lg">
+        <div class="fixed w-full z-20 top-0 lg:p-8 py-4 text-center text-black backdrop-blur-lg border-double border-b-8 border-amber-400 border-opacity-20">
             <h1 class="sm:text-3xl text-2xl font-bold font-elmessiri ">
                 Mufassir Ahmad Chowdhury
             </h1>
