@@ -28,6 +28,18 @@
 
 </script>
 <svelte:head>
+    <meta property="og:type" content="website" />
+		<meta property="og:url" content="https://mufassir.net/" />
+		<meta property="og:title" content="Mufassir Ahmad Chowdhury" />
+		<meta property="og:description" content="Mufassir Ahmad Chowdhury | Computer Science | Shahjalal University of Science and Technology" />
+		<meta property="og:image" content="%sveltekit.assets%/logo.webp" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://mufassir.net/" />
+		<meta property="twitter:title" content="Mufassir Ahmad Chowdhury" />
+		<meta property="twitter:description" content="Mufassir Ahmad Chowdhury | Computer Science | Shahjalal University of Science and Technology" />
+		<meta property="twitter:image" content="%sveltekit.assets%/logo.webp" />
     <title>Mufassir Ahmad Chowdhury</title>
     <meta name="title" content="Mufassir Ahmad Chowdhury" />
     <meta name="description" content="Mufassir Ahmad Chowdhury | Computer Science | Shahjalal University of Science and Technology" />

@@ -10,6 +10,18 @@
 
 <svelte:head>
     {#if item}
+        <meta property="og:type" content="website" />
+		<meta property="og:url" content="https://mufassir.net/links/" />
+		<meta property="og:title" content="{item.title} | Curated Links - Mufassir Ahmad Chowdhury" />
+		<meta property="og:description" content="{item.subtitle} | Curated list of interesting contents | Mufassir Ahmad Chowdhury | Computer Science | Shahjalal University of Science and Technology" />
+		<meta property="og:image" content="%sveltekit.assets%/logo.webp" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://mufassir.net/links/" />
+		<meta property="twitter:title" content="{item.title} | Curated Links - Mufassir Ahmad Chowdhury" />
+		<meta property="twitter:description" content="{item.subtitle} | Curated list of interesting contents | Mufassir Ahmad Chowdhury | Computer Science | Shahjalal University of Science and Technology" />
+		<meta property="twitter:image" content="%sveltekit.assets%/logo.webp" />
         <title>{item.title} | Mufassir's Links</title>
         <meta name="title" content="{item.title} | Curated Links - Mufassir Ahmad Chowdhury" />
         <meta name="description" content="{item.subtitle} | Curated list of interesting contents | Mufassir Ahmad Chowdhury | Computer Science | Shahjalal University of Science and Technology" />
