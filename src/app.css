@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-  
+:hover.card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(237, 148, 85, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
   .cards {
     display: grid;
     gap: 1em;

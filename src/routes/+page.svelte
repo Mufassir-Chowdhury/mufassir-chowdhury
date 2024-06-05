@@ -6,41 +6,39 @@
     import WhiteSkills from '$lib/WhiteSkills.svelte';
     import { reveal } from 'svelte-reveal';
 
-    onMount(() => {
-        const blob = document.getElementById("blob");
+    // onMount(() => {
+    //     const blob = document.getElementById("blob");
 
-        window.onpointermove = event => { 
-        const { pageX, pageY } = event;
+    //     window.onpointermove = event => { 
+    //     const { pageX, pageY } = event;
 
-        const maxX = document.documentElement.scrollWidth - blob.offsetWidth + 100;
-        const maxY = document.documentElement.scrollHeight - blob.offsetHeight + 100;
+    //     const maxX = document.documentElement.scrollWidth - blob.offsetWidth + 100;
+    //     const maxY = document.documentElement.scrollHeight - blob.offsetHeight + 100;
 
-        const x = Math.min(pageX, maxX);
-        const y = Math.min(pageY, maxY);
+    //     const x = Math.min(pageX, maxX);
+    //     const y = Math.min(pageY, maxY);
 
-        blob.animate({
-            left: `${x}px`,
-            top: `${y}px`
-        }, { duration: 3000, fill: "forwards" });
-        };
-    });
+    //     blob.animate({
+    //         left: `${x}px`,
+    //         top: `${y}px`
+    //     }, { duration: 3000, fill: "forwards" });
+    //     };
+    // });
     
 
 </script>
-<body class="h-full m-0 bg-[#F9EFDF]">
+<svelte:head>
+    <title>Mufassir Ahmad Chowdhury</title>
+    <meta name="title" content="Mufassir Ahmad Chowdhury" />
+    <meta name="description" content="Mufassir Ahmad Chowdhury | Computer Science | Shahjalal University of Science and Technology" />
+  </svelte:head>
     
-    <div id="blob" class="hidden md:block"></div>
-    <div id="blur"></div>
-    <div id="pattern"></div>
+    <!-- <div id="blob" class="hidden md:block"></div> -->
+
     <!-- <div id="background"></div> -->
 
-    <main class="w-full h-full my-32 z-10 absolute">    
-        <div class="fixed w-full z-20 top-0 lg:p-8 py-4 text-center text-black backdrop-blur-lg border-double border-b-8 border-amber-400 border-opacity-20">
-            <h1 class="sm:text-3xl text-2xl font-bold font-elmessiri ">
-                Mufassir Ahmad Chowdhury
-            </h1>
-            
-        </div>
+    <main class="w-full h-full z-10 absolute">    
+        
         <div class="w-full h-full px-12 lg:px-40 text-center text-black">
             <h2 class="xl font-semibold">
                 MAC in short.
@@ -63,7 +61,7 @@
                     </h2>
                     <div class="text-left lg:px-28 flex flex-col " >
                         <a href="https://aclanthology.org/2024.bucc-1.8/" target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="grid grid-cols-4 mb-4 lg:p-4 card animation lg:h-32 " >
+                            <div class="grid grid-cols-4 mb-4 p-4 card animation lg:h-32 " >
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     1. 2023
                                 </div>
@@ -78,10 +76,10 @@
                             </div>
                         </a>
                         <div class="font-semibold text-center p-8">Ongoing Research Topics</div>
-                        <div class="lg:p-4 card lg:h-16" use:reveal={{ transition: "slide" }}>
+                        <div class="p-4 card lg:h-16" use:reveal={{ transition: "slide" }}>
                             1. Clinical Natural Language Processing
                         </div>
-                        <div class="lg:p-4 card lg:h-16" use:reveal={{ transition: "slide" }}>
+                        <div class="p-4 card lg:h-16" use:reveal={{ transition: "slide" }}>
                             2. Natural Language Processing for Low Resource Languages
                         </div>
                 
@@ -100,8 +98,11 @@
                         Experiences
                     </h2>
                     <div class="text-left lg:px-28 flex flex-col " >
-                        <a href=" https://www.youtube.com/@Itihashjaan " target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-32 border-animation">
+                        <div class="mb-4 p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
+                            [REDACTED :) Check again later!]
+                        </div>
+                        <!-- <a href=" https://www.youtube.com/@Itihashjaan " target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="grid grid-cols-4 mb-4 p-4 card lg:h-32 border-animation">
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     1. 2023-2024
                                 </div>
@@ -115,7 +116,7 @@
                                 </div>
                             </div>
                         </a>
-                        <div class="grid grid-cols-4 mb-4 lg:p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
+                        <div class="grid grid-cols-4 mb-4 p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
                             <div class="text-center font-semibold text-sm text-gray-900">
                                 1. 2020-2024
                             </div>
@@ -130,7 +131,7 @@
                                 </div>    
                             </div>
                         </div>
-                
+                 -->
                     </div>
                 </div>
                 <div class="py-14 reveal"><WhiteInterests /></div>
@@ -146,42 +147,42 @@
                     </h2>
                     <div class="text-left lg:px-28 grid grid-cols-3 md:grid-cols-6" >
                         <a href=" https://www.facebook.com/mufassir.usama/" target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                            <div class="mb-4 p-4 card h-16 md:h-32 flex justify-center">
                                 <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
                                     <img src="social/facebook.webp" alt="facebook" class="inline-block">
                                 </div>
                             </div>
                         </a>
                         <a href="https://github.com/Mufassir-Chowdhury" target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                            <div class="mb-4 p-4 card h-16 md:h-32 flex justify-center">
                                 <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
                                     <img src="social/github.webp" alt="github" class="inline-block">
                                 </div>
                             </div>
                         </a>
                         <a href="https://www.linkedin.com/in/mufassir-chowdhury/" target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="mb-4 lg:p-4 card h-16  md:h-32 flex justify-center">
+                            <div class="mb-4 p-4 card h-16  md:h-32 flex justify-center">
                                 <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
                                     <img src="social/linkedin.webp" alt="linkedin" class="inline-block">
                                 </div>
                             </div>
                         </a>
                         <a href=" https://scholar.google.com/citations?hl=en&user=iAcSk2oAAAAJ" target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                            <div class="mb-4 p-4 card h-16 md:h-32 flex justify-center">
                                 <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
                                     <img src="social/google_scholar.webp" alt="google_scholar" class="inline-block">
                                 </div>
                             </div>
                         </a>
                         <a href="https://www.youtube.com/@this_is_mac" target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                            <div class="mb-4 p-4 card h-16 md:h-32 flex justify-center">
                                 <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
                                     <img src="social/youtube.webp" alt="youtube" class="inline-block">
                                 </div>
                             </div>
                         </a>
                         <a href="mailto:contact@mufassir.net" target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="mb-4 lg:p-4 card h-16 md:h-32 flex justify-center">
+                            <div class="mb-4 p-4 card h-16 md:h-32 flex justify-center">
                                 <div class="flex justify-center items-center p-1 shadow-2xl sm:w-24 sm:h-24">
                                     <img src="social/gmail.webp" alt="gmail" class="inline-block">
                                 </div>
@@ -194,17 +195,9 @@
         </div>
     </main>
 
-</body>
   
 <style lang="postcss">
-    :hover.card {
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(237, 148, 85, 0.2);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
+    
     @keyframes rotate {
     from {
         rotate: 0deg;
@@ -230,38 +223,11 @@
         border-radius: 50%;
         background: linear-gradient(to right, rgb(255, 236, 158), rgb(237, 148, 85));
         animation: rotate 20s infinite;
-        z-index: 1;
+        z-index: -20;
         opacity: 0.5;
     }
-    #pattern {
-        
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #f9efdf;
-        background-image: url("data:image/svg+xml,%3Csvg width='48' height='64' viewBox='0 0 48 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M48 28v-4L36 12 24 24 12 12 0 24v4l4 4-4 4v4l12 12 12-12 12 12 12-12v-4l-4-4 4-4zM8 32l-6-6 10-10 10 10-6 6 6 6-10 10L2 38l6-6zm12 0l4-4 4 4-4 4-4-4zm12 0l-6-6 10-10 10 10-6 6 6 6-10 10-10-10 6-6zM0 16L10 6 4 0h4l4 4 4-4h4l-6 6 10 10L34 6l-6-6h4l4 4 4-4h4l-6 6 10 10v4L36 8 24 20 12 8 0 20v-4zm0 32l10 10-6 6h4l4-4 4 4h4l-6-6 10-10 10 10-6 6h4l4-4 4 4h4l-6-6 10-10v-4L36 56 24 44 12 56 0 44v4z' fill='%23b8ac99' fill-opacity='0.32' fill-rule='evenodd'/%3E%3C/svg%3E");
-        z-index: 3;
-        opacity: 0.3;
-    }
-    #blur {
-        
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 2;
-        backdrop-filter: blur(120vmax) brightness(1.1);
-    }
-    body {
-        background-color: #F9EFDF;
-    }
+    
+    
     
     #background {
     background-image: url("https://images.unsplash.com/photo-1565896311009-382b9e813b19?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987");
