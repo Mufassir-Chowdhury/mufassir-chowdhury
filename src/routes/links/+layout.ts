@@ -1,7 +1,33 @@
 export const load = async () => {
     return {
         links: [
-            
+            {
+                "title": "পিলখানা হত্যাকান্ড",
+                "slug": "pilkhana-massacre",
+                "date": "2024-08-24",
+                "content": "পিলখানা হত্যাকান্ড বাংলাদেশের ইতিহাসে একটি কালো অধ্যায়। ২৫ ফেব্রুয়ারি ২০০৯ সালে বাংলাদেশ হারায় তাঁর সেরা কিছু সেনা অফিসারকে। কি হয়েছিলো সেদিন?",
+                "subtitle": "পিলখানা হত্যাকান্ড বাংলাদেশের ইতিহাসে একটি কালো অধ্যায়। ২৫ ফেব্রুয়ারি ২০০৯ সালে বাংলাদেশ হারায় তাঁর সেরা কিছু সেনা অফিসারকে। কি হয়েছিলো সেদিন?",
+                "links": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=ICOjfTfPRP4",
+                        "title": "YouTube Video",
+                        "description": " 'কর্ণেল গুলজারকে পিলখানায় হত্যা করেছিল মির্জা আজমের নেতৃত্বে যুবলীগ' - মেজর সুমন আহমেদ (অব.) kanaksarwarNEWS "
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=EfxKMKwpDDY",
+                        "title": "Youtube Video",
+                        "description": " 'অনেকটা সেনাকাস্টডিতেই অফিসারদের হত্যা করা হয়েছে' - ক্যাপ্টেন শাহনাজ জাহান (অব.) kanaksarwarNEWS "
+                    },
+                    {
+                        "urls": [
+                            "https://www.youtube.com/watch?v=h32VuDT0Kd8",
+                            "https://www.youtube.com/watch?v=kgXKwcOPBWo",
+                            "https://www.youtube.com/watch?v=HNpMh52ChQA"
+                        ],
+                        "description": "লে. কর্নেল সৈয়দ কামরুজ্জামান: Channel i News"
+                    }
+                ]
+            },
             {
                 "title": "Darwinian Evolution and Islam",
                 "slug": "darwinian-evolution-and-islam",

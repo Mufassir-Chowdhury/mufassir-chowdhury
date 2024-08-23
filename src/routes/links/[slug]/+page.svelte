@@ -43,9 +43,18 @@
                         {#if link.description}
                             <h2 class="">{link.description}</h2>
                         {/if}
-                        <div class="w-full flex justify-center mt-2">
-                            <a href={link.url} target="_blank" rel="noopener noreferrer" class="bg-amber-400 p-2 rounded-md shadow-xl">{link.title}</a>
-                        </div>
+                        {#if link.url}
+                            <div class="w-full flex justify-center mt-2">
+                                <a href={link.url} target="_blank" rel="noopener noreferrer" class="bg-amber-400 p-2 rounded-md shadow-xl">{link.title}</a>
+                            </div>
+                        {/if}
+                        {#if link.urls}
+                            <div class="w-full flex justify-center mt-2 gap-2">
+                                {#each link.urls as url, index}
+                                    <a href={url} target="_blank" rel="noopener noreferrer" class="bg-amber-400 p-2 px-4 rounded-md shadow-xl">{index + 1}</a>
+                                {/each}
+                            </div>
+                        {/if}
                     </div>
                 {/each}
 
