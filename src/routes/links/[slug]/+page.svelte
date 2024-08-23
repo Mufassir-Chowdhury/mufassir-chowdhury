@@ -37,9 +37,9 @@
         <article class="p-4 w-full max-w-xl border-2 border-dashed border-amber-400 min-h-96 rounded-xl">
             <h1 class="text-xl font-elmessiri font-semibold text-center my-2">{item.title}</h1>
             <p class="text-sm text-center text-gray-900 my-4">{item.date}</p>
-            <div class="w-full flex flex-col justify-center items-center">
+            <div class="w-full flex flex-col justify-center items-center gap-4">
                 {#each item.links as link}
-                    <a href={link.url} target="_blank" rel="noopener noreferrer" class="bg-amber-400 p-2 rounded-md">{link.title}</a>
+                    <a href={link.url} target="_blank" rel="noopener noreferrer" class="bg-amber-400 p-2 rounded-md shadow-md">{link.title}</a>
                 {/each}
 
             </div>
