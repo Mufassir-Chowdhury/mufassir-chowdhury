@@ -1,6 +1,32 @@
 export const load = async () => {
     return {
         links: [
+            
+            {
+                "title": "Darwinian Evolution and Islam",
+                "slug": "darwinian-evolution-and-islam",
+                "date": "2024-08-23",
+                "content": "We as Muslims believe the Quran to be true and from Allah. There are a lot of scientific facts found in the Quran, which is only there to prove some theological point, but not as a scientific argument. There has been a lot of progress in our understanding of the universe, which has led the Mufassirs to reinterpret the verses which were previously misunderstood. But being a relatively new theory, Darwinian Evolution is yet to be reconciled with Quran. We don't take the theory as it is, but try to find some common ground that is both scientifically accurate and also valid according to Quran.",
+                "subtitle": "Some arguments that tries to reconcile Darwinian Evolution with Islam.",
+                "links": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=B2aEdwdjIdg",
+                        "title": "Darwin's Doubt"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=rmRH80lj9UM",
+                        "title": "Porf. Shoaib Ahmed Malik"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=f6GFyUvNQTQ",
+                        "title": "Subboor Ahmad"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=znUDS6mZYQc",
+                        "title": "Dr Joshua Swamidass"
+                    }
+                ]
+            },
             {
                 "title": "Impact of internet on remote amazon tribes",
                 "slug": "impact-of-internet-on-remote-amazon-tribes",
