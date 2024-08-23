@@ -11,19 +11,23 @@ export const load = async () => {
                 "links": [
                     {
                         "url": "https://www.youtube.com/watch?v=B2aEdwdjIdg",
-                        "title": "Darwin's Doubt"
+                        "title": "YouTube Video",
+                        "description": "Darwin's Doubt - Blogging Theology"
                     },
                     {
                         "url": "https://www.youtube.com/watch?v=rmRH80lj9UM",
-                        "title": "Porf. Shoaib Ahmed Malik"
+                        "title": "YouTube Video",
+                        "description": "Islam and evolution with Professor Shoaib Ahmed Malik - Blogging Theology"
                     },
                     {
                         "url": "https://www.youtube.com/watch?v=f6GFyUvNQTQ",
-                        "title": "Subboor Ahmad"
+                        "title": "YouTube Video",
+                        "description": "Islam, Evolution, and Darwinism with Subboor Ahmad - Blogging Theology"
                     },
                     {
                         "url": "https://www.youtube.com/watch?v=znUDS6mZYQc",
-                        "title": "Dr Joshua Swamidass"
+                        "title": "YouTube Video",
+                        "description": "Did Adam and Eve Exist? What Science Really Says - with Dr Joshua Swamidass - Blogging Theology"
                     }
                 ]
             },
