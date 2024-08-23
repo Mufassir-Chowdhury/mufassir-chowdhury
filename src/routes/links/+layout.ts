@@ -11,12 +11,12 @@ export const load = async () => {
                     {
                         "url": "https://www.youtube.com/watch?v=ICOjfTfPRP4",
                         "title": "YouTube Video",
-                        "description": " 'কর্ণেল গুলজারকে পিলখানায় হত্যা করেছিল মির্জা আজমের নেতৃত্বে যুবলীগ' - মেজর সুমন আহমেদ (অব.) kanaksarwarNEWS "
+                        "description": " 'কর্ণেল গুলজারকে পিলখানায় হত্যা করেছিল মির্জা আজমের নেতৃত্বে যুবলীগ' - মেজর সুমন আহমেদ (অব.) | kanaksarwarNEWS "
                     },
                     {
                         "url": "https://www.youtube.com/watch?v=EfxKMKwpDDY",
                         "title": "Youtube Video",
-                        "description": " 'অনেকটা সেনাকাস্টডিতেই অফিসারদের হত্যা করা হয়েছে' - ক্যাপ্টেন শাহনাজ জাহান (অব.) kanaksarwarNEWS "
+                        "description": " 'অনেকটা সেনাকাস্টডিতেই অফিসারদের হত্যা করা হয়েছে' - ক্যাপ্টেন শাহনাজ জাহান (অব.) | kanaksarwarNEWS "
                     },
                     {
                         "urls": [
@@ -24,7 +24,29 @@ export const load = async () => {
                             "https://www.youtube.com/watch?v=kgXKwcOPBWo",
                             "https://www.youtube.com/watch?v=HNpMh52ChQA"
                         ],
-                        "description": "লে. কর্নেল সৈয়দ কামরুজ্জামান: Channel i News"
+                        "description": "লে. কর্নেল সৈয়দ কামরুজ্জামান | Channel i News"
+                    },
+                    {
+                        "url": "https://www.youtube.com/live/SzruJ87cHZE",
+                        "title": "YouTube Video",
+                        "description": " পিলখানা হত্যাকাণ্ড ও কিছু প্রশ্ন | রাজনীতি | Jamuna TV "
+                    },
+                    {
+                        "url": "https://www.youtube.com/live/-xoWtiATHVw",
+                        "title": "YouTube Live",
+                        "description": " বিডিআর হ*ত্যা*কাণ্ডের জন্য দায়ী কে? | মুক্তবাক | Channel 24 "
+                    },
+                    {
+                        "urls": [
+                            "https://www.youtube.com/watch?v=rsxQf9kSFBE",
+                            "https://www.youtube.com/watch?v=Mrqtygy3Les"
+                        ],
+                        "description": " বিডি আর ( BDR ) হত্যাকান্ড কারা ঘটিয়েছিলো || পর্ব - ১ || Pinaki Bhattacharya || The Untold "
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=F0FJ-rCGqEY",
+                        "title": "Youtube Video",
+                        "description": " বিদ্রোহের নামে সেনা কর্মকর্তা হত্যাকাণ্ডের গোপন অডিও | নেপথ্যে শেখ সেলিম, শেখ তাপস, মির্জা আজম, নানক | kanaksarwarNEWS"
                     }
                 ]
             },
