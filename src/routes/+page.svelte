@@ -110,10 +110,10 @@
                         Experiences
                     </h2>
                     <div class="text-left lg:px-28 flex flex-col " >
-                        <div class="mb-4 p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
+                        <!-- <div class="mb-4 p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
                             [REDACTED :) Check again later!]
-                        </div>
-                        <!-- <a href=" https://www.youtube.com/@Itihashjaan " target="_blank" use:reveal={{ transition: "slide" }}>
+                        </div> -->
+                        <a href=" https://www.youtube.com/@Itihashjaan " target="_blank" use:reveal={{ transition: "slide" }}>
                             <div class="grid grid-cols-4 mb-4 p-4 card lg:h-32 border-animation">
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     1. 2023-2024
@@ -143,7 +143,7 @@
                                 </div>    
                             </div>
                         </div>
-                 -->
+                
                     </div>
                 </div>
                 <div class="py-14 reveal"><WhiteInterests /></div>
