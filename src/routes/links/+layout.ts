@@ -85,6 +85,59 @@ export const load = async () => {
                 ]
             },
             {
+                "title": "US Foreign Policy in Bangladesh",
+                "slug": "us-foreign-policy-in-bangladesh",
+                "date": "2024-08-9",
+                "content": "This is a collection of videos and articles about the US foreign policy in Bangladesh and some analysis of the fall of the Awami League government.",
+                "subtitle": "This is a collection of videos and articles about the US foreign policy in Bangladesh and some analysis of the fall of the Awami League government.",
+                "links": [
+                    {
+                        "url": "https://youtu.be/Rssdgy2DX2k?si=Bsqd5lufz4Jbw2Wj",
+                        "title": "YouTube Video",
+                        "description": "8 days before the fall |  Bangladesh Protests: politics is a negotiation, not a zero-sum game | Middle Nation"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=JJsN5yB5hPM&feature=youtu.be",
+                        "title": "Youtube Video",
+                        "description": "News Breakdown Excerpt | Bangladesh scores a win for Western hegemony | Middle Nation"
+                    },
+                    {
+                        "url": "https://www.bloomberg.com/news/articles/2024-08-23/bangladesh-seeks-3-billion-imf-emergency-aid-to-help-pay-debt",
+                        "title": "Bloomberg Article",
+                        "description": "Bangladesh Seeks $3 Billion IMF Emergency Aid to Help Pay Debt (Read this article after watching the Middle Nation videos)"
+                    },
+                    {
+                        "urls": [
+                            "https://www.facebook.com/share/p/zoycMrsf7JsrjJmW/",
+                            "https://www.facebook.com/share/p/AQW4Zy7GbrMfVMbD/",
+                            "https://www.facebook.com/share/p/99m6BF3DKZfiCa4Y/",
+                            "https://www.facebook.com/share/p/sBTznMxCPzKGiWvx/"
+                        ],
+                        "description": "ড. ইউনূস যেভাবে সরকার প্রধান | Khomenee Ehsan "
+                    },
+                    {
+                        "url": "https://www.facebook.com/share/p/99TsajqWiEDLBot4/",
+                        "title": "Facebook Post",
+                        "description": "ড. ইউনূস কেনো? | Zahirul Alam Siddique"
+                    },
+                    {
+                        "url": "https://www.facebook.com/share/p/wvtw14TQ93eRJDfY/",
+                        "title": "Facebook Post",
+                        "description": "মাইনাস টু | Hamidul Hassan"
+                    },
+                    {
+                        "url": "https://mufassir.notion.site/58th-country-to-follow-the-age-old-pattern-Hamidul-Hassan-fe94e5b627ac4951a4312df56eeb8ffa?pvs=4",
+                        "title": "Notion Page",
+                        "description": "58th country to follow the age-old pattern | Hamidul Hassan"
+                    },
+                    {
+                        "url": "https://mufassir.notion.site/Collected-1c95d1d617724705b099d23aa89e7522?pvs=4",
+                        "title": "Notion Page",
+                        "description": "গণতান্ত্রিক ছাত্র শক্তি এবং ড. ইউনূস | Collected"
+                    }
+                ]
+            },
+            {
                 "title": "Impact of internet on remote amazon tribes",
                 "slug": "impact-of-internet-on-remote-amazon-tribes",
                 "date": "2024-06-05",
