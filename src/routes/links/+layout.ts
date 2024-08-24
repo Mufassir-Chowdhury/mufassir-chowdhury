@@ -88,8 +88,8 @@ export const load = async () => {
                 "title": "US Foreign Policy in Bangladesh",
                 "slug": "us-foreign-policy-in-bangladesh",
                 "date": "2024-08-9",
-                "content": "This is a collection of videos and articles about the US foreign policy in Bangladesh and some analysis of the fall of the Awami League government.",
-                "subtitle": "This is a collection of videos and articles about the US foreign policy in Bangladesh and some analysis of the fall of the Awami League government.",
+                "content": "This is a collection of videos and articles about the US foreign policy in Bangladesh and some analysis of the fall of the Awami League government and the possible US intervention the process.",
+                "subtitle": "This is a collection of videos and articles about the US foreign policy in Bangladesh and some analysis of the fall of the Awami League government and the possible US intervention the process.",
                 "links": [
                     {
                         "url": "https://youtu.be/Rssdgy2DX2k?si=Bsqd5lufz4Jbw2Wj",
