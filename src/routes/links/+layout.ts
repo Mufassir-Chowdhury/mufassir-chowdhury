@@ -37,6 +37,11 @@ export const load = async () => {
                         "description": "বিডিআর হ*ত্যা*কাণ্ডের জন্য দায়ী কে? | মুক্তবাক | Channel 24 "
                     },
                     {
+                        "url": "https://www.youtube.com/watch?v=LYU6u3HhdSg",
+                        "title": "YouTuve Video",
+                        "description": " পিলখানায় কি ঘটেছিলো, কেনো ঘটেছিলো? | সরাসরি টকশো | পর্ব-৭৬৯৪ "
+                    },
+                    {
                         "urls": [
                             "https://www.youtube.com/watch?v=rsxQf9kSFBE",
                             "https://www.youtube.com/watch?v=Mrqtygy3Les"
