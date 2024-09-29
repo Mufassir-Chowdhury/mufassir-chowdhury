@@ -143,7 +143,22 @@
                                 </div>    
                             </div>
                         </div>
-                
+                        <a href=" https://www.youtube.com/@রেনেসাঁ-ঢ৭র " target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="grid grid-cols-4 mb-4 p-4 card lg:h-32 border-animation">
+                                <div class="text-center font-semibold text-sm text-gray-900">
+                                    1. 2024
+                                </div>
+                                <div class="col-span-3">
+                                    <div class="font-semibold">
+                                        Host at Renaissance (রেনেসাঁ) Podcast
+                                    </div>
+                                    <div class="text-gray-900">
+                                        • Responsibilities include hosting, editing, and managing the podcast.
+                                        • Social media management.
+                                    </div>    
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="py-14 reveal"><WhiteInterests /></div>

@@ -2,6 +2,25 @@ export const load = async () => {
     return {
         links: [
             {
+                "title": "শাহবাগ আন্দোলন",
+                "slug": "shahbag-movement",
+                "date": "2024-08-28", 
+                "content": "",
+                "subtitle": "",
+                "links": [
+                    {
+                        "url": "https://youtu.be/neLyf_fFhq4?si=y7RiuCOT3aV34-Rs",
+                        "title": "YouTube Video",
+                        "description": "আমি কেন শাহবাগি ছিলাম? Pinaki Bhattacharya || The Untold"
+                    },
+                    {
+                        "url": "https://www.youtube.com/watch?v=TIeNCli4k5M",
+                        "title": "YouTube Video",
+                        "description": " শাহবাগ আন্দোলন এবং মিডিয়া ফ্রেমিং | Shahbag Movement & Media Framing | Bobby Hajjaj"
+                    }
+                ]
+            },
+            {
                 "title": "পিলখানা হত্যাকান্ড",
                 "slug": "pilkhana-massacre",
                 "date": "2024-08-24",
@@ -39,7 +58,7 @@ export const load = async () => {
                     {
                         "url": "https://www.youtube.com/watch?v=LYU6u3HhdSg",
                         "title": "YouTuve Video",
-                        "description": " পিলখানায় কি ঘটেছিলো, কেনো ঘটেছিলো? | সরাসরি টকশো | পর্ব-৭৬৯৪ "
+                        "description": " পিলখানায় কি ঘটেছিলো, কেনো ঘটেছিলো? | সরাসরি টকশো | পর্ব-৭৬৯৪ | তৃতীয় মাত্রা"
                     },
                     {
                         "urls": [
