@@ -153,7 +153,7 @@
                                         Host at Renaissance (রেনেসাঁ) Podcast
                                     </div>
                                     <div class="text-gray-900">
-                                        • Responsibilities include hosting, editing, and managing the podcast.
+                                        • Responsibilities include hosting, editing, and managing the podcast. <br/>
                                         • Social media management.
                                     </div>    
                                 </div>
