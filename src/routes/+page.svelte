@@ -150,7 +150,7 @@
                                 </div>
                                 <div class="col-span-3">
                                     <div class="font-semibold">
-                                        Host at Renaissance (রেনেসাঁ) Podcast
+                                        Host and Manager at Renaissance (রেনেসাঁ) Podcast
                                     </div>
                                     <div class="text-gray-900">
                                         • Responsibilities include hosting, editing, and managing the podcast. <br/>
