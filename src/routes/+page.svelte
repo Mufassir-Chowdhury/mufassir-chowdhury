@@ -130,7 +130,7 @@
                         </a>
                         <div class="grid grid-cols-4 mb-4 p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
                             <div class="text-center font-semibold text-sm text-gray-900">
-                                1. 2020-2024
+                                2. 2020-2024
                             </div>
                             <div class="col-span-3">
                                 <div class="font-semibold">
@@ -146,7 +146,7 @@
                         <a href=" https://www.youtube.com/@রেনেসাঁ-ঢ৭র " target="_blank" use:reveal={{ transition: "slide" }}>
                             <div class="grid grid-cols-4 mb-4 p-4 card lg:h-32 border-animation">
                                 <div class="text-center font-semibold text-sm text-gray-900">
-                                    1. 2024
+                                    3. 2024
                                 </div>
                                 <div class="col-span-3">
                                     <div class="font-semibold">
