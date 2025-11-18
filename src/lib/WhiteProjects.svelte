@@ -5,6 +5,21 @@
 
     const projects = [
         {
+            title: "Intelligent Systems",
+            description: "AI powered personal assistant with RAG capabilities.",
+            stacks: [
+                {
+                    name: "Web",
+                    stack: [
+                        "react",
+                        "langchain",
+                        "fastapi",
+                        "postgresql"
+                    ]
+                }
+            ]
+        },
+        {
             title: "SUST APP",
             description: "All in one platform for SUST students",
             stacks: [
@@ -12,13 +27,6 @@
                     name: "Desktop",
                     stack: [
                         "java"
-                    ]
-                },
-                {
-                    name: "Mobile",
-                    stack: [
-                        "flutter",
-                        "surrealdb"
                     ]
                 },
                 {
@@ -32,22 +40,8 @@
             ]
         },
         {
-            title: "Blood Donor Manager",
-            description: "Client",
-            stacks: [
-                {
-                    name: "Web",
-                    stack: [
-                        "vuejs",
-                        "tailwindcss",
-                        "firebase"
-                    ]
-                }
-            ]
-        },
-        {
             title: "SUST CSE Carnival",
-            description: "Client",
+            description: "Official website for SUST CSE Carnival 2024 event.",
             stacks: [
                 {
                     name: "Web",
@@ -59,33 +53,8 @@
             ]
         },
         {
-            title: "NMOSS",
-            description: "Website for Cyber Security Research Club",
-            stacks: [
-                {
-                    name: "Web",
-                    stack: [
-                        "svelte",
-                        "tailwindcss"
-                    ]
-                }
-            ]
-        },
-        {
-            title: "AI_Support",
-            description: "Discord bot for SUST CSE server",
-            stacks: [
-                {
-                    name: "Language",
-                    stack: [
-                        "python"
-                    ]
-                }
-            ]
-        },
-        {
-            title: "CSP Justice",
-            description: "Website for a research group with blogging capabilities for users",
+            title: "KKRF Sylhet",
+            description: "Organisation website with custom admin panel with advanced management pipelines.",
             stacks: [
                 {
                     name: "Web",
@@ -105,10 +74,10 @@
     </h2>
     <div class="cards text-sm lg:text-base">
         {#each projects as project}
-            <GlassCard className="h-52">
-                <h3 class="lg:text-2xl text-xl font-bold">
+            <GlassCard title={project.title} className="h-52">
+                <!-- <h3 class="lg:text-2xl text-xl font-bold">
                     {project.title}
-                </h3>
+                </h3> -->
                 <div>
                     {project.description}
                 </div>

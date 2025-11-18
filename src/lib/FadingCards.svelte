@@ -1,5 +1,5 @@
 <div id="cards">
-    <div class="card shadow-2xl" data-color="blue">
+    <!-- <div class="card shadow-2xl" data-color="blue">
       <img class="card-front-image card-image" src="surrealdb.webp" alt="surrealdb" />
       <div class="card-faders">
         <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
@@ -11,10 +11,10 @@
         <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
         <img class="card-fader card-image" src="surrealdb.webp" alt="surrealdb" />
       </div>
-    </div>
-    <div class="font-black  text-3xl">
+    </div> -->
+    <!-- <div class="font-black  text-3xl">
         <div>+</div>
-    </div>
+    </div> -->
     <div class="card shadow-2xl" data-color="green">
       <img class="card-front-image card-image" src="sveltekit.webp" alt="sveltekit" />
       <div class="card-faders">
@@ -28,11 +28,11 @@
         <img class="card-fader card-image" src="sveltekit.webp" alt="sveltekit" />
       </div>
     </div>
-    <div class="font-black  text-3xl">
+    <!-- <div class="font-black  text-3xl">
         <div>+</div>
-    </div>
+    </div> -->
 
-    <div class="card shadow-2xl" data-color="brown">
+    <!-- <div class="card shadow-2xl" data-color="brown">
       <img class="card-front-image card-image" src="tailwindcss.webp" alt="tailwindcss" />
       <div class="card-faders">
         <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
@@ -44,7 +44,7 @@
         <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
         <img class="card-fader card-image" src="tailwindcss.webp" alt="tailwindcss" />
       </div>
-    </div>
+    </div> -->
   </div>
 
 <style>
@@ -78,7 +78,7 @@
     }
 
     .card .card-image {
-    width: clamp(200px, 10vw, 250px);
+    width: clamp(400px, 20vw, 450px);
     aspect-ratio: 6 / 5;
     border-radius: clamp(0.5rem, 0.75vw, 2rem);
     }
@@ -139,7 +139,7 @@
     }
     
     .card .card-image {
-        width: 400px;    
+        width: 600px;    
     }
     }
 

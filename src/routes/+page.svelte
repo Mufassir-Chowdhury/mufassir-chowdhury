@@ -1,29 +1,10 @@
 <script>
-    import { onMount } from 'svelte';
     import WhiteProjects from '$lib/WhiteProjects.svelte';
     import Stack from '$lib/Stack.svelte';
     import WhiteInterests from '$lib/WhiteInterests.svelte';
     import WhiteSkills from '$lib/WhiteSkills.svelte';
     import { reveal } from 'svelte-reveal';
 
-    // onMount(() => {
-    //     const blob = document.getElementById("blob");
-
-    //     window.onpointermove = event => { 
-    //     const { pageX, pageY } = event;
-
-    //     const maxX = document.documentElement.scrollWidth - blob.offsetWidth + 100;
-    //     const maxY = document.documentElement.scrollHeight - blob.offsetHeight + 100;
-
-    //     const x = Math.min(pageX, maxX);
-    //     const y = Math.min(pageY, maxY);
-
-    //     blob.animate({
-    //         left: `${x}px`,
-    //         top: `${y}px`
-    //     }, { duration: 3000, fill: "forwards" });
-    //     };
-    // });
     
 
 </script>
@@ -56,9 +37,10 @@
                 MAC in short.
             </h2>
             <p class="my-8">
-                Computer Science and Engineering student at <a href="https://www.sust.edu/" class="underline text-emerald-500 relative inline-block highlight-animation translate-y-1">
-                    <span class="relative overflow-hidden inline-block">Shahjalal University of Science and Technology</span>
-                  </a>.
+                <span class="underline decoration-dashed decoration-emerald-500 decoration-2">Lecturer,</span> Computer Science and Engineering @
+                    <a href="https://www.sust.edu/" class="underline text-emerald-500 relative inline-block highlight-animation translate-y-1">
+                        <span class="relative overflow-hidden inline-block">Shahjalal University of Science and Technology</span>
+                    </a>.
             </p>
 
 
@@ -73,7 +55,7 @@
                     </h2>
                     <div class="text-left lg:px-28 flex flex-col " >
                         <a href="https://aclanthology.org/2024.bucc-1.8/" target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="grid grid-cols-4 mb-4 p-4 card animation lg:h-32 " >
+                            <div class="grid grid-cols-4 mb-4 p-4 card animation " >
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     1. 2023
                                 </div>
@@ -81,18 +63,39 @@
                                     <div class="font-semibold">
                                         BnPC: A Gold Standard Corpus for Paraphrase Detection in Bangla, and its Evaluation
                                     </div>
-                                    <div class="text-gray-900">
+                                    Sourav Saha, Zeshan Ahmed Nobin, <span class="text-emerald-500">Mufassir Ahmad Chowdhury</span>, Md. Shakirul Hasan Khan Mobin, Mohammad Ruhul Amin, Sudipta Kar.
+                                    <div class="text-gray-500">
                                         Accepted at 17th BUCC (Building and Using Comparable Corpora) workshop at LREC-COLING 2024
                                     </div>    
                                 </div>
                             </div>
                         </a>
                         <div class="font-semibold text-center p-8">Ongoing Research Topics</div>
-                        <div class="p-4 card lg:h-16" use:reveal={{ transition: "slide" }}>
-                            1. Clinical Natural Language Processing
+                        <div class="grid grid-cols-4 mb-4 p-4 card animation " use:reveal={{ transition: "slide" }}>
+                            <div class="text-center font-semibold text-sm text-gray-900">
+                                Undergraduate<br/> Thesis
+                            </div>
+                            <div class="col-span-3 ">
+                                <div class="font-semibold">
+                                    Neural Temporal Point Process for Mortality Prediction using multiple ECG Traces.
+                                </div>
+                                <div class="text-gray-500">
+                                    Supervisor: M. Jahirul Islam, Ph.D., PEng, Md Saiful Islam.
+                                </div>    
+                            </div>
                         </div>
-                        <div class="p-4 card lg:h-16" use:reveal={{ transition: "slide" }}>
-                            2. Natural Language Processing for Low Resource Languages
+                        <div class="grid grid-cols-4 mb-4 p-4 card animation " use:reveal={{ transition: "slide" }}>
+                            <div class="text-center font-semibold text-sm text-gray-900">
+                                Ongoing
+                            </div>
+                            <div class="col-span-3 ">
+                                <div class="font-semibold">
+                                    Detecting Offensive and Hate Speech in Noisy, Code-Mixed Bangla Social Media Comments.
+                                </div>
+                                <div class="text-gray-500">
+                                    Supervisor: Mohammad Shahidur Rahman, Ph.D.
+                                </div>    
+                            </div>
                         </div>
                 
                     </div>
@@ -105,32 +108,18 @@
 
 
 
-                <div class="mb-8 reveal">
+                <!-- <div class="mb-8 reveal">
                     <h2 class="text-3xl font-bold font-elmessiri my-8" use:reveal={{ transition: "slide" }}>
                         Experiences
                     </h2>
-                    <div class="text-left lg:px-28 flex flex-col " >
+                    <div class="text-left lg:px-28 flex flex-col " > -->
                         <!-- <div class="mb-4 p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
                             [REDACTED :) Check again later!]
                         </div> -->
-                        <a href=" https://www.youtube.com/@Itihashjaan " target="_blank" use:reveal={{ transition: "slide" }}>
-                            <div class="grid grid-cols-4 mb-4 p-4 card lg:h-32 border-animation">
-                                <div class="text-center font-semibold text-sm text-gray-900">
-                                    1. 2023-2024
-                                </div>
-                                <div class="col-span-3">
-                                    <div class="font-semibold">
-                                        Host at Itihashjaan (ইতিহাসযান) Podcast
-                                    </div>
-                                    <div class="text-gray-900">
-                                        • Responsibilities include hosting, editing, and managing the podcast.
-                                    </div>    
-                                </div>
-                            </div>
-                        </a>
-                        <div class="grid grid-cols-4 mb-4 p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
+                        
+                        <!-- <div class="grid grid-cols-4 mb-4 p-4 card lg:h-48" use:reveal={{ transition: "slide" }}>
                             <div class="text-center font-semibold text-sm text-gray-900">
-                                2. 2020-2024
+                                1. 2020-2025
                             </div>
                             <div class="col-span-3">
                                 <div class="font-semibold">
@@ -143,7 +132,22 @@
                                 </div>    
                             </div>
                         </div>
-                        <a href=" https://www.youtube.com/@রেনেসাঁ-ঢ৭র " target="_blank" use:reveal={{ transition: "slide" }}>
+                        <a href=" https://www.youtube.com/@Itihashjaan " target="_blank" use:reveal={{ transition: "slide" }}>
+                            <div class="grid grid-cols-4 mb-4 p-4 card lg:h-32 border-animation">
+                                <div class="text-center font-semibold text-sm text-gray-900">
+                                    2. 2023-2024
+                                </div>
+                                <div class="col-span-3">
+                                    <div class="font-semibold">
+                                        Host at Itihashjaan (ইতিহাসযান) Podcast
+                                    </div>
+                                    <div class="text-gray-900">
+                                        • Responsibilities include hosting, editing, and managing the podcast.
+                                    </div>    
+                                </div>
+                            </div>
+                        </a> -->
+                        <!-- <a href=" https://www.youtube.com/@রেনেসাঁ-ঢ৭র " target="_blank" use:reveal={{ transition: "slide" }}>
                             <div class="grid grid-cols-4 mb-4 p-4 card lg:h-32 border-animation">
                                 <div class="text-center font-semibold text-sm text-gray-900">
                                     3. 2024
@@ -158,9 +162,9 @@
                                     </div>    
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                </div>
+                        </a> -->
+                    <!-- </div>
+                </div> -->
                 <div class="py-14 reveal"><WhiteInterests /></div>
                 <div class="py-14 reveal"><WhiteSkills /></div>
 

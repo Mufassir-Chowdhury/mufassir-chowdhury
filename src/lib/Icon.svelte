@@ -24,13 +24,20 @@
         "github": "logo/github.svg",
         "sql": "logo/sql.svg",
         "docker": "logo/docker.webp",
-        "godot": "logo/godot.svg"
+        "godot": "logo/godot.svg",
+        "langchain": "logo/langchain.svg",
+        "fastapi": "logo/fastapi.svg",
+        "postgresql": "logo/postgresql.png",
+        "go": "logo/go.png",
+        "pytorch": "logo/pytorch.png",
+        "aws": "logo/aws.webp",
+        "azure": "logo/azure.svg"
     }
 </script>
 
 <Tooltip tip={capitalizeFirstLetter(logo)} bottom>
     <!-- <button>Hello</button> -->
-    <div class="flex justify-center items-center p-1 rounded-full border shadow-2xl border-gray-500 sm:w-10 sm:h-10">
+    <div class="flex justify-center items-center p-1 rounded-full border shadow-2xl border-gray-300 sm:w-10 sm:h-10">
         <img src={source[logo]} alt={logo} class="h-6 w-6 inline-block">
     </div>
 </Tooltip>

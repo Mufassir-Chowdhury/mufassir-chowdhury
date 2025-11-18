@@ -7,7 +7,7 @@
     <h2 class="text-3xl font-bold font-elmessiri my-8 " use:reveal={{ transition: "slide" }}>
         Interests
     </h2>
-
+    I'm all ears if you want to talk about:
 </div>
 
 <div class="cards">

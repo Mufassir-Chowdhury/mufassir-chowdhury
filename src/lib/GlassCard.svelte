@@ -16,7 +16,7 @@
 
   <style>
     :root {
-    --card-color: rgb(30, 30, 30, 0.90);
+    --card-color: rgb(30, 30, 30, 0.40);
     }
 
 
@@ -42,7 +42,7 @@
     background: linear-gradient(
         45deg,
         transparent 5%,
-        rgb(255, 215, 137) 50%,
+        rgba(255, 215, 137, 0.4) 50%,
         transparent 99%
     );
     border-radius: inherit;

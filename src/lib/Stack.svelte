@@ -10,7 +10,8 @@
         "javascript",
         "python",
         "java",
-        "sql",
+        "go",
+        "postgresql",
         "surrealdb",
         "html",
     ];
@@ -20,22 +21,25 @@
         "vuejs",
         "react",
         "flutter",
+        "langchain",
+        "fastapi",
+        "pytorch",
+        "godot"
     ];
     const tools = [
         "git",
         "github",
         "cloudflare",
         "firebase",
-        "docker"
-    ]
-    const learning = [
-        "godot",
+        "docker",
+        "aws",
+        "azure"
     ]
 </script>
 
 <div>
     <h2 class="text-3xl font-bold font-elmessiri my-8" use:reveal={{ transition: "slide" }}>
-        My Favourite Stack
+        My Favourite Framework
     </h2>
     <FadingCards />
     <div class="my-20" use:reveal={{ transition: "slide" }}>
@@ -54,21 +58,10 @@
                 <Icon logo={framework} />
             {/each}
         </div>
-        <h3 class="text-xl font-bold">Tools:</h3>
+        <h3 class="text-xl font-bold">Tools and Platforms:</h3>
         <div class="flex justify-center gap-6 my-6">
             {#each tools as tool}
                 <Icon logo={tool} />
-            {/each}
-        </div>
-
-    </div>
-    <div class="my-20" use:reveal={{ transition: "slide" }}>
-        Navigating the waters of:<br/>
-        
-        <h3 class="text-xl font-bold mt-4">Tools:</h3>
-        <div class="grid grid-cols-5 lg:flex justify-center gap-6 my-6">
-            {#each learning as learning_tool}
-                <Icon logo={learning_tool} />
             {/each}
         </div>
 
