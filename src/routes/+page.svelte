@@ -73,7 +73,8 @@
                         <div class="font-semibold text-center p-8">Ongoing Research Topics</div>
                         <div class="grid grid-cols-4 mb-4 p-4 card animation " use:reveal={{ transition: "slide" }}>
                             <div class="text-center font-semibold text-sm text-gray-900">
-                                Undergraduate<br/> Thesis
+                                <!-- Undergraduate<br/> Thesis -->
+                                 Thesis
                             </div>
                             <div class="col-span-3 ">
                                 <div class="font-semibold">

@@ -53,13 +53,13 @@
 
         </div>
         <h3 class="text-xl font-bold">Frameworks:</h3>
-        <div class="flex justify-center gap-6 my-6">
+        <div class="grid grid-cols-5 lg:flex justify-center gap-6 my-6">
             {#each frameworks as framework}
                 <Icon logo={framework} />
             {/each}
         </div>
         <h3 class="text-xl font-bold">Tools and Platforms:</h3>
-        <div class="flex justify-center gap-6 my-6">
+        <div class="grid grid-cols-5 lg:flex justify-center gap-6 my-6">
             {#each tools as tool}
                 <Icon logo={tool} />
             {/each}
