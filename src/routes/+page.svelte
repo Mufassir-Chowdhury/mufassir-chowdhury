@@ -78,7 +78,8 @@
                             </div>
                             <div class="col-span-3 ">
                                 <div class="font-semibold">
-                                    Neural Temporal Point Process for Mortality Prediction using multiple ECG Traces.
+                                    <!-- Neural Temporal Point Process for Mortality Prediction using multiple ECG Traces. -->
+                                    AI in healthcare (title redacted due to blind review)
                                 </div>
                                 <div class="text-gray-500">
                                     Supervisor: M. Jahirul Islam, Ph.D., PEng, Md Saiful Islam.
