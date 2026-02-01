@@ -37,7 +37,7 @@
                 MAC in short.
             </h2>
             <p class="my-8">
-                <span class="underline decoration-dashed decoration-emerald-500 decoration-2">Lecturer,</span> Computer Science and Engineering @
+                <span class="underline decoration-dashed decoration-emerald-500 decoration-2">Graduate Student,</span> Computer Science and Engineering @
                     <a href="https://www.sust.edu/" class="underline text-emerald-500 relative inline-block highlight-animation translate-y-1">
                         <span class="relative overflow-hidden inline-block">Shahjalal University of Science and Technology</span>
                     </a>.
