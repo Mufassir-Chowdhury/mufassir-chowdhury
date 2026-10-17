@@ -1,8 +1,6 @@
 <script>
     import WhiteProjects from '$lib/WhiteProjects.svelte';
     import Stack from '$lib/Stack.svelte';
-    import WhiteInterests from '$lib/WhiteInterests.svelte';
-    import WhiteSkills from '$lib/WhiteSkills.svelte';
     import { reveal } from 'svelte-reveal';
 
     const experiences = [
@@ -99,6 +97,10 @@
 					<span class="relative overflow-hidden inline-block">Shahjalal University of Science and Technology</span>
 				</a>.
 			</p>
+            <p class="my-8 text-gray-500">
+                Outside work, I read, mostly philosophy and books on how we live now.
+                I keep a short list of <a href="/links" class="underline decoration-dashed decoration-emerald-500 decoration-2">things I've found worth sharing</a>.
+            </p>
 
 
             <!-- Research -->
@@ -316,8 +318,6 @@
                         {/each}
                     </div>
                 </div>
-                <div class="py-14 reveal"><WhiteInterests /></div>
-                <div class="py-14 reveal"><WhiteSkills /></div>
 
                 <!-- Social Media -->
 

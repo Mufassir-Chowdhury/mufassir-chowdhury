@@ -4,8 +4,6 @@
     import Research from '$lib/Research.svelte';
     import Projects from '$lib/Projects.svelte';
     import Stack from '$lib/Stack.svelte';
-    import Interests from '$lib/Interests.svelte';
-    import Skills from '$lib/Skills.svelte';
     
     onMount(() => {
         const blob = document.getElementById("blob");
@@ -49,8 +47,6 @@
                 <div class="py-28"><Research /></div>
                 <div class="py-28"><Projects /></div>
                 <div class="py-28"><Stack /></div>
-                <div class="py-28"><Interests /></div>
-                <div class="py-28"><Skills /></div>
             </div>
         </div>
     </main>
