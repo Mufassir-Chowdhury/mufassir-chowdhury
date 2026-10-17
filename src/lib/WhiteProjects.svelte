@@ -6,7 +6,7 @@
     const projects = [
         {
             title: "Intelligent Systems",
-            description: "AI powered personal assistant with RAG capabilities.",
+            description: "AI powered personal assistant chatbot (Gemini) with RAG to retrieve information from local files.",
             stacks: [
                 {
                     name: "Web",
@@ -15,6 +15,21 @@
                         "langchain",
                         "fastapi",
                         "postgresql"
+                    ]
+                }
+            ]
+        },
+        {
+            title: "Rice Disease Classifier",
+            description: "Image-based rice disease classification with a custom TensorFlow model, containerized and deployed on Azure.",
+            stacks: [
+                {
+                    name: "MLOps",
+                    stack: [
+                        "python",
+                        "fastapi",
+                        "docker",
+                        "azure"
                     ]
                 }
             ]
@@ -41,7 +56,7 @@
         },
         {
             title: "SUST CSE Carnival",
-            description: "Official website for SUST CSE Carnival 2024 event.",
+            description: "Official website for SUST CSE Carnival 2024 with payment gateway for registration.",
             stacks: [
                 {
                     name: "Web",
@@ -54,7 +69,7 @@
         },
         {
             title: "KKRF Sylhet",
-            description: "Organisation website with custom admin panel with advanced management pipelines.",
+            description: "Organisation website with a custom admin panel for registration management, admit cards and event updates.",
             stacks: [
                 {
                     name: "Web",

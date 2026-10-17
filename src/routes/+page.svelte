@@ -5,7 +5,61 @@
     import WhiteSkills from '$lib/WhiteSkills.svelte';
     import { reveal } from 'svelte-reveal';
 
-    
+    const experiences = [
+        {
+            period: "April 2026 – Present",
+            title: "Lecturer, Computer Science and Engineering",
+            place: "Shahjalal University of Science and Technology, Sylhet",
+            details: "Courses taken: Discrete Mathematics, Management Information System, Database Management Systems, Introduction to Computer Applications."
+        },
+        {
+            period: "Teaching Assistant",
+            title: "Advanced Python Programming and Visualization",
+            place: "Masters in Data Science, Shahjalal University of Science and Technology, Sylhet"
+        },
+        {
+            period: "October 2026",
+            title: "Peer Reviewer",
+            place: "IEEE 3rd International Conference on Computing, Applications and Systems (COMPAS 2026), Dhaka"
+        }
+    ];
+
+    const education = [
+        {
+            period: "Jan. 2026 – Present",
+            title: "Master of Science in Computer Science and Engineering",
+            place: "Shahjalal University of Science and Technology, Sylhet"
+        },
+        {
+            period: "Feb. 2020 – July 2025",
+            title: "Bachelor of Science in Computer Science and Engineering",
+            place: "Shahjalal University of Science and Technology, Sylhet",
+            details: "CGPA: 3.80/4.00 (with distinction)"
+        }
+    ];
+
+    const recognitions = [
+        {
+            period: "2026",
+            title: "SUST Research Centre Grant"
+        },
+        {
+            period: "January 2025",
+            title: "Invited Keynote Speaker, 9th Science Olympiad, Sylhet Upazilla Parishad",
+            details: "From Discovery to Innovation: The Journey of Science and Engineering."
+        },
+        {
+            period: "May 2024",
+            title: "Paper Presentation, LREC-COLING 2024, Italia",
+            details: "BnPC: A Gold Standard Corpus for Paraphrase Detection in Bangla, and its Evaluation — 17th BUCC workshop."
+        },
+        {
+            period: "2019 & 2017",
+            title: "Government Scholarships for academic excellence",
+            details: "Awarded in high school (2019) and secondary school (2017)."
+        }
+    ];
+
 
 </script>
 <svelte:head>
@@ -60,7 +114,7 @@
                         <a href="https://aclanthology.org/2024.bucc-1.8/" target="_blank" use:reveal={{ transition: "slide" }}>
                             <div class="grid grid-cols-4 mb-4 p-4 card animation " >
                                 <div class="text-center font-semibold text-sm text-gray-900">
-                                    1. 2023
+                                    1. 2024
                                 </div>
                                 <div class="col-span-3 ">
                                     <div class="font-semibold">
@@ -68,21 +122,19 @@
                                     </div>
                                     Sourav Saha, Zeshan Ahmed Nobin, <span class="text-emerald-500">Mufassir Ahmad Chowdhury</span>, Md. Shakirul Hasan Khan Mobin, Mohammad Ruhul Amin, Sudipta Kar.
                                     <div class="text-gray-500">
-                                        Accepted at 17th BUCC (Building and Using Comparable Corpora) workshop at LREC-COLING 2024
+                                        In Proceedings of the 17th BUCC (Building and Using Comparable Corpora) workshop @ LREC-COLING 2024, Italia
                                     </div>    
                                 </div>
                             </div>
                         </a>
-                        <div class="font-semibold text-center p-8">Ongoing Research Topics</div>
+                        <div class="font-semibold text-center p-8">Ongoing Research</div>
                         <div class="grid grid-cols-4 mb-4 p-4 card animation " use:reveal={{ transition: "slide" }}>
                             <div class="text-center font-semibold text-sm text-gray-900">
-                                <!-- Undergraduate<br/> Thesis -->
-                                 Thesis
+                                Under Review
                             </div>
                             <div class="col-span-3 ">
                                 <div class="font-semibold">
-                                    <!-- Neural Temporal Point Process for Mortality Prediction using multiple ECG Traces. -->
-                                    AI in healthcare (title redacted due to blind review)
+                                    Neural Temporal Point Process for Mortality Prediction using multiple ECG Traces.
                                 </div>
                                 <div class="text-gray-500">
                                     Supervisor: M. Jahirul Islam, Ph.D., PEng, Md Saiful Islam.
@@ -103,6 +155,70 @@
                             </div>
                         </div>
                 
+                    </div>
+                </div>
+
+                <!-- Experience -->
+
+
+
+                <div class="mb-8 reveal">
+                    <h2 class="text-3xl font-bold font-elmessiri my-8" use:reveal={{ transition: "slide" }}>
+                        Experience
+                    </h2>
+                    <div class="text-left lg:px-28 flex flex-col " >
+                        {#each experiences as experience}
+                            <div class="grid grid-cols-4 mb-4 p-4 card animation " use:reveal={{ transition: "slide" }}>
+                                <div class="text-center font-semibold text-sm text-gray-900">
+                                    {experience.period}
+                                </div>
+                                <div class="col-span-3 ">
+                                    <div class="font-semibold">
+                                        {experience.title}
+                                    </div>
+                                    <div class="text-gray-500">
+                                        {experience.place}
+                                    </div>
+                                    {#if experience.details}
+                                        <div class="text-gray-900">
+                                            {experience.details}
+                                        </div>
+                                    {/if}
+                                </div>
+                            </div>
+                        {/each}
+                    </div>
+                </div>
+
+                <!-- Education -->
+
+
+
+                <div class="mb-8 reveal">
+                    <h2 class="text-3xl font-bold font-elmessiri my-8" use:reveal={{ transition: "slide" }}>
+                        Education
+                    </h2>
+                    <div class="text-left lg:px-28 flex flex-col " >
+                        {#each education as degree}
+                            <div class="grid grid-cols-4 mb-4 p-4 card animation " use:reveal={{ transition: "slide" }}>
+                                <div class="text-center font-semibold text-sm text-gray-900">
+                                    {degree.period}
+                                </div>
+                                <div class="col-span-3 ">
+                                    <div class="font-semibold">
+                                        {degree.title}
+                                    </div>
+                                    <div class="text-gray-500">
+                                        {degree.place}
+                                    </div>
+                                    {#if degree.details}
+                                        <div class="text-gray-900">
+                                            {degree.details}
+                                        </div>
+                                    {/if}
+                                </div>
+                            </div>
+                        {/each}
                     </div>
                 </div>
                 <div class="py-14"><WhiteProjects /></div>
@@ -170,6 +286,35 @@
                         </a> -->
                     <!-- </div>
                 </div> -->
+
+                <!-- Talks and Awards -->
+
+
+
+                <div class="mb-8 reveal">
+                    <h2 class="text-3xl font-bold font-elmessiri my-8" use:reveal={{ transition: "slide" }}>
+                        Talks &amp; Awards
+                    </h2>
+                    <div class="text-left lg:px-28 flex flex-col " >
+                        {#each recognitions as recognition}
+                            <div class="grid grid-cols-4 mb-4 p-4 card animation " use:reveal={{ transition: "slide" }}>
+                                <div class="text-center font-semibold text-sm text-gray-900">
+                                    {recognition.period}
+                                </div>
+                                <div class="col-span-3 ">
+                                    <div class="font-semibold">
+                                        {recognition.title}
+                                    </div>
+                                    {#if recognition.details}
+                                        <div class="text-gray-500">
+                                            {recognition.details}
+                                        </div>
+                                    {/if}
+                                </div>
+                            </div>
+                        {/each}
+                    </div>
+                </div>
                 <div class="py-14 reveal"><WhiteInterests /></div>
                 <div class="py-14 reveal"><WhiteSkills /></div>
 
